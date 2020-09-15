@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/anders-app/static/css/main.5f361e03.chunk.css",
+    "main.js": "/anders-app/static/js/main.17b8b450.chunk.js",
+    "main.js.map": "/anders-app/static/js/main.17b8b450.chunk.js.map",
+    "runtime-main.js": "/anders-app/static/js/runtime-main.e18717de.js",
+    "runtime-main.js.map": "/anders-app/static/js/runtime-main.e18717de.js.map",
+    "static/js/2.c5d7e83d.chunk.js": "/anders-app/static/js/2.c5d7e83d.chunk.js",
+    "static/js/2.c5d7e83d.chunk.js.map": "/anders-app/static/js/2.c5d7e83d.chunk.js.map",
+    "index.html": "/anders-app/index.html",
+    "precache-manifest.b8e57f7e41a71650bff2fa1b6a2d5dad.js": "/anders-app/precache-manifest.b8e57f7e41a71650bff2fa1b6a2d5dad.js",
+    "service-worker.js": "/anders-app/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/anders-app/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.c5d7e83d.chunk.js.LICENSE.txt": "/anders-app/static/js/2.c5d7e83d.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/anders-app/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e18717de.js",
+    "static/js/2.c5d7e83d.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.17b8b450.chunk.js"
+  ]
+}
