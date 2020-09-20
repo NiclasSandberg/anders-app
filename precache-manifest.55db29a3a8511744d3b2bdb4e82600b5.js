@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8a33658b38d8deba20a1dac409174baf",
+    "revision": "73d9e70f83c18cebec1fd8204436b8fe",
     "url": "/anders-app/index.html"
   },
   {
-    "revision": "3a92229202def18a1fa5",
-    "url": "/anders-app/static/css/main.c354e1a3.chunk.css"
+    "revision": "cd373a00cf6fe64eb590",
+    "url": "/anders-app/static/css/main.44d6014e.chunk.css"
   },
   {
     "revision": "3307adbcd054dfee7fa7",
@@ -16,15 +16,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/anders-app/static/js/2.2b758c7e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3a92229202def18a1fa5",
-    "url": "/anders-app/static/js/main.0537325a.chunk.js"
+    "revision": "cd373a00cf6fe64eb590",
+    "url": "/anders-app/static/js/main.b94d6b66.chunk.js"
   },
   {
     "revision": "8cd9907c89082a6db8f9",
     "url": "/anders-app/static/js/runtime-main.e18717de.js"
   },
   {
-    "revision": "a605faea30eb098e343735cd33d0fbf3",
-    "url": "/anders-app/static/media/14_croped_desktop.a605faea.jpg"
+    "revision": "e2037a19fda264eaaf478057ba115707",
+    "url": "/anders-app/static/media/1.e2037a19.jpg"
+  },
+  {
+    "revision": "f9f02ed05aa86534c3842d44cb20d6c4",
+    "url": "/anders-app/static/media/futuran.f9f02ed0.TTF"
   }
 ]);
