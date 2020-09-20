@@ -1,0 +1,22 @@
+footer {
+    color:#808080;
+    background-color: #EEEEEE;
+    display:flex;
+  }
+  .footer-content {
+    padding:15px 0px 10px 25px;
+  }
+  
+  @media (min-width: 43em) {
+    
+  footer {
+    justify-content: center;
+    padding-bottom: 15px;
+  }
+  
+  .footer-content {
+    display:flex;
+    flex-direction: row;
+    gap:3em;
+  }
+  }

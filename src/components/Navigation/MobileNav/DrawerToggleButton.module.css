@@ -1,0 +1,46 @@
+
+.toggle-button {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 10px;
+    width:36px;
+    background: transparent;
+    border:none;
+    cursor: pointer;
+    padding:0;
+    box-sizing: border-box;
+    z-index:9998;
+    outline:none;
+    
+}
+
+.toggle-button__line{
+    width:36px;
+    height:2px;
+    background: white;
+    z-index:9999;
+}
+
+.toggle-button__line_open{
+    width:36px;
+    height:2px;
+    background: #808080;
+    z-index:9999;
+    transition: all .2s ease-out;
+    transform: rotate(135deg);
+    position:absolute;
+    top:1;
+    margin-top:1.5px;
+}
+
+.top_open {
+    position:absolute;
+    transform: rotate(45deg);
+}
+
+@media (min-width:1024px){
+    .toggle-button{
+    display:none;
+    }
+}

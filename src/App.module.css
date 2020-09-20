@@ -1,0 +1,70 @@
+
+
+body {
+  font-family: futuran; 
+}
+header {
+  background-image: url(./assets/img/1.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center right;
+  height: 100vh;  
+  
+  background-color: rgba(0,0,0, 0.2);
+  animation:fadein 2.5s;
+  
+  background-blend-mode: darken;
+  font-size: 1.5em;
+}
+
+@keyframes fadein {
+  from { opacity: 0.85; }
+  to   { opacity: 1; }
+}
+@media(min-width:1800px){
+  header{
+    /* cropa så moln syns mer??
+  background-position: top right;
+  */
+  }
+}
+
+
+
+/*
+footer {
+  background-color: #EEEEEE;
+  
+}
+.footer-content {
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  color:#808080;
+  padding:25px;
+  
+}
+.footer-content p {
+  margin:0.5em;
+}
+
+@media (min-width:768px) {
+  .footer-content {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 2fr;
+    color:#808080;
+    height:15vh;
+    margin: 0 30%;
+    
+    border-radius:5px solid black;
+  }
+.footer-content .phone{
+    text-align:end;
+  }
+
+.footer-content .email{
+  text-align:center;
+}
+}
+*/
