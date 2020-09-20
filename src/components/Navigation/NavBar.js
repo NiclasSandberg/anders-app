@@ -9,7 +9,7 @@ const navBar = props =>  (
 
     <nav className="App">
         <nav className={style["toolbar_navigation"]}>
-          <div className={style["brand"]} style={{color:"white"}}>ANDERS WADMAN</div>
+          <div className={style["brand"]} style={{color:"#808080"}}>CURMAN ARKITEKTUR & BYGGNADSVÅRD</div>
          
           <DrawerToggleButton click={props.drawerClickHandler} burgerColorToggle={props.newBurgerColor}/>
           
