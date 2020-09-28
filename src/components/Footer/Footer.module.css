@@ -4,19 +4,31 @@ footer {
     display:flex;
   }
   .footer-content {
-    padding:15px 0px 10px 25px;
+    padding:15px 1em 10px 1em;
+    font-size:0.9em;
   }
+  
+  footer a {
+    text-decoration: none;
+    color:#808080;
+  }
+  .hide-br {
+    display:none!important;
+  }
+
   
   @media (min-width: 43em) {
     
   footer {
     justify-content: center;
-    padding-bottom: 15px;
   }
   
   .footer-content {
     display:flex;
     flex-direction: row;
     gap:3em;
+    padding-bottom: 15px;
   }
+  
   }
+

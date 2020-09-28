@@ -2,15 +2,18 @@ import React from 'react'
 import style from './SideDrawer.module.css';
 
 const sideDrawer = props => (
-        
 
-        <nav className={style['side-drawer']}>
-            <ul className={style['side-drawer__items']}>
-                <li><a href="">CURMAN ARKITEKTUR & BYGGNADSVÅRD</a></li>
-                <li><a href="">Studio</a></li>
-                <li><a href="">Spaces</a></li>
-            </ul>
-        </nav>
+
+    <nav className={style['side-drawer']}>
+        <ul className={style['side-drawer__brand']}>
+           <li>
+               <a href="">Curman Wadman Architects</a></li>
+        </ul>
+        <ul className={style['side-drawer__items']}>
+            <li style={{borderTop: "1px solid #a2a2a2"}}><a href="">Studio</a></li>
+            <li><a href="">Space</a></li>
+        </ul>
+    </nav>
 );
 
 

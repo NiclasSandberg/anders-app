@@ -7,20 +7,21 @@ header {
   background-image: url(./assets/img/1.jpg);
   background-size:cover;
   background-repeat: no-repeat;
-  background-position: center right;
+  background-position: top right;
   height: 100vh;  
   
   /*background-color: rgba(0,0,0, 0.2);
   animation:fadein 2.5s;
   
   background-blend-mode: darken;*/
-  font-size: 1.5em;
+  font-size: 1rem;
 }
-
+/*
 @keyframes fadein {
   from { opacity: 0.85; }
   to   { opacity: 1; }
 }
+*/
 @media(min-width:1800px){
   header{
     /* cropa så moln syns mer??

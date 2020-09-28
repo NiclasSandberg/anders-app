@@ -22,26 +22,39 @@
   
   .toolbar-navigation-items a:hover,
   .toolbar-navigation-items a:active {
-    border-bottom: 1px solid rgb(255, 255, 255, 1);
+    border-bottom: 1px solid #808080;
   }
   
 
-    .toolbar_navigation {
+  .toolbar_navigation {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:0 10% 0 10%; 
+    padding-top:1.875em;
+  }
   
-      display:flex;
-      justify-content: space-between;
-      align-items:center;
-      padding:0 12% 0 12%;
-      padding-top:30px;
-    }
-  
-    @media (min-width: 1024px) {
+.brand a{
+  text-decoration:none;
+  color: #808080;
+}
+
+@media (max-width: 767px){
+
+  .brand {
+    width:160px;
+  }
+}
+
+
+@media (min-width: 1024px) {
       .toolbar_navigation {
-        padding-top:13vh;
+        padding:13.5vh 13% 0 13%;
+        
       }
 
     }
-    @media (max-width: 1024px) {
+@media (max-width: 1023px) {
       .toolbar-navigation-items {
         display:none;
       }

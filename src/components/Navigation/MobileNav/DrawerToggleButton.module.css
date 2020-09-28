@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: space-between;
     height: 10px;
-    width:36px;
+    width:25px;
     background: transparent;
     border:none;
     cursor: pointer;
@@ -16,15 +16,15 @@
 }
 
 .toggle-button__line{
-    width:36px;
-    height:2px;
+    width:23px;
+    height:1px;
     background: #808080;
     z-index:9999;
 }
 
 .toggle-button__line_open{
-    width:36px;
-    height:2px;
+    width:23px;
+    height:1px;
     background: #808080;
     z-index:9999;
     transition: all .2s ease-out;
