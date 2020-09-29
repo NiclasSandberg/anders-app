@@ -7,7 +7,7 @@ function Footer() {
     <div className="App">
       <footer>
         <div className={styles['footer-content']}>
-          <p style={{letterSpacing: "0.02em"}}>Curman Wadman Architects</p>
+          <p style={{letterSpacing: "0.02em"}}>CURMAN WADMAN ARCHITECTS</p>
           <p>Anders Curman Wadman <br />
              Architect SAR / MSA
             <br />
