@@ -12,6 +12,7 @@
     box-sizing: border-box;
     z-index:9998;
     outline:none;
+    -webkit-tap-highlight-color: transparent; 
     
 }
 
@@ -29,14 +30,15 @@
     z-index:9999;
     transition: all .2s ease-out;
     transform: rotate(135deg);
-    position:absolute;
+    position:fixed;
     top:1;
-    margin-top:1.5px;
+    margin-top:5px;
 }
 
 .top_open {
-    position:absolute;
+    position:fixed;
     transform: rotate(45deg);
+    
 }
 
 @media (min-width:1024px){

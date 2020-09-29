@@ -12,9 +12,11 @@ footer {
     text-decoration: none;
     color:#808080;
   }
+  /*
   .hide-br {
     display:none!important;
   }
+  */
 
   
   @media (min-width: 43em) {
@@ -26,9 +28,13 @@ footer {
   .footer-content {
     display:flex;
     flex-direction: row;
-    gap:3em;
+    gap:1.5em;
     padding-bottom: 15px;
   }
   
   }
-
+@media (min-width:1024px){
+  .footer-content {
+    gap:3;
+  }
+}
