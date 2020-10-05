@@ -1,19 +1,20 @@
 import React from 'react'
-import style from './NavBar.module.css';
+import styles from './NavBar.module.css';
 import './MobileNav/DrawerToggleButton';
 import DrawerToggleButton from './MobileNav/DrawerToggleButton';
-
 
 
 const navBar = props =>  (
 
     <nav className="App">
-        <nav className={style["toolbar_navigation"]}>
-          <div className={style["brand"]} style={{color:"#808080"}}><a href="#">CURMAN WADMAN ARCHITECTS</a> </div>
+      
+        <nav className={styles["toolbar_navigation"]}>
+          <div className={styles["brand"]} style={{color:"#808080"}}>
+            <a href="#">CURMAN WADMAN ARCHITECTS</a> </div>
          
           <DrawerToggleButton click={props.drawerClickHandler} burgerColorToggle={props.newBurgerColor}/>
           
-          <div className={style["toolbar-navigation-items"]}>
+          <div className={styles["toolbar-navigation-items"]}>
           <ul>
             <li>
               <a href="#">Studio</a>

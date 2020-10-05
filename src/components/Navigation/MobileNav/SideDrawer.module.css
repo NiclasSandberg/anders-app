@@ -47,7 +47,10 @@
 
 .side-drawer__brand li{
     width:94%;
-    letter-spacing: 0.02em;
+}
+.side-drawer__brand a{
+    font-size:0.85em;
+    letter-spacing: 0.04em;
 }
 
 @media (min-width:769px){

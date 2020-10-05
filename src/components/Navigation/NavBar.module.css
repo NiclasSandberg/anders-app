@@ -36,12 +36,22 @@
     padding-top:1.875em;
   }
   
+   
 .brand a{
   text-decoration:none;
   color: #808080;
-  letter-spacing: 0.02em;
-  -webkit-tap-highlight-color: transparent; 
+  letter-spacing: 0.04em;
+  -webkit-tap-highlight-color: transparent;
+  font-size:0.85em;
+  
 }
+
+.logotype {
+  height:40px;
+  
+}
+
+
 
 @media (max-width: 767px){
 

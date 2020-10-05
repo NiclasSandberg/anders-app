@@ -2,9 +2,12 @@ footer {
     color:#808080;
     background-color: #EEEEEE;
     display:flex;
+    flex-direction: column;
   }
   .footer-content {
-    padding:15px 1em 10px 1em;
+    padding:15px 1em 0.2rem 1em;
+  }
+  .contact-info{
     font-size:0.9em;
   }
   
@@ -12,29 +15,54 @@ footer {
     text-decoration: none;
     color:#808080;
   }
-  /*
-  .hide-br {
-    display:none!important;
-  }
-  */
-
   
+.brand {
+  letter-spacing: 0.04em;
+  font-size:0.85em;
+  
+}
+
+.logotype {
+  height:auto;
+  width:3.7rem;
+  
+}
+
   @media (min-width: 43em) {
     
   footer {
+    flex-direction: row;
     justify-content: center;
+    padding-bottom:1.75rem;
+    padding-top:1.75rem;
   }
   
-  .footer-content {
+  .footer-content{
     display:flex;
     flex-direction: row;
     gap:1.5em;
-    padding-bottom: 15px;
+    padding:0px auto 0px auto;
+    align-items: flex-end;
+    padding-top:0px;
+    
   }
+  .footer-content p{
+    margin:0px auto 0px auto;
+  }
+  .contact-info{
+    display:flex;
+    gap:1.5em; 
+
+  }
+  .logo-brand{
+    text-align: center;
   
-  }
+  } 
+}
+  
 @media (min-width:1024px){
   .footer-content {
     gap:3;
   }
+  
 }
