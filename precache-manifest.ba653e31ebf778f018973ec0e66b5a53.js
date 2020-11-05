@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "109c0e0bd94c37486e65643d0ef6a98c",
+    "revision": "1befa4316f0dab2e6a9ff73b4b46b79a",
     "url": "/anders-app/index.html"
   },
   {
-    "revision": "12dd963762d880e62337",
-    "url": "/anders-app/static/css/main.89134cd8.chunk.css"
+    "revision": "c4115ad781d786ae407d",
+    "url": "/anders-app/static/css/main.f6dada9f.chunk.css"
   },
   {
-    "revision": "6058644fede763abc252",
-    "url": "/anders-app/static/js/2.d56d8408.chunk.js"
+    "revision": "a30090d0bb03b3dca564",
+    "url": "/anders-app/static/js/2.e87fc6c7.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/anders-app/static/js/2.d56d8408.chunk.js.LICENSE.txt"
+    "url": "/anders-app/static/js/2.e87fc6c7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "12dd963762d880e62337",
-    "url": "/anders-app/static/js/main.ea4f4e34.chunk.js"
+    "revision": "c4115ad781d786ae407d",
+    "url": "/anders-app/static/js/main.60c24a0a.chunk.js"
   },
   {
     "revision": "8cd9907c89082a6db8f9",
