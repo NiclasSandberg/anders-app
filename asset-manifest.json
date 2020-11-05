@@ -1,25 +1,34 @@
 {
   "files": {
-    "main.css": "/anders-app/static/css/main.92720ccb.chunk.css",
-    "main.js": "/anders-app/static/js/main.d41eaed4.chunk.js",
-    "main.js.map": "/anders-app/static/js/main.d41eaed4.chunk.js.map",
+    "main.css": "/anders-app/static/css/main.89134cd8.chunk.css",
+    "main.js": "/anders-app/static/js/main.ea4f4e34.chunk.js",
+    "main.js.map": "/anders-app/static/js/main.ea4f4e34.chunk.js.map",
     "runtime-main.js": "/anders-app/static/js/runtime-main.e18717de.js",
     "runtime-main.js.map": "/anders-app/static/js/runtime-main.e18717de.js.map",
-    "static/js/2.3c671f5d.chunk.js": "/anders-app/static/js/2.3c671f5d.chunk.js",
-    "static/js/2.3c671f5d.chunk.js.map": "/anders-app/static/js/2.3c671f5d.chunk.js.map",
+    "static/js/2.d56d8408.chunk.js": "/anders-app/static/js/2.d56d8408.chunk.js",
+    "static/js/2.d56d8408.chunk.js.map": "/anders-app/static/js/2.d56d8408.chunk.js.map",
     "index.html": "/anders-app/index.html",
-    "precache-manifest.639337f327778f7065438ddfdd1b7fed.js": "/anders-app/precache-manifest.639337f327778f7065438ddfdd1b7fed.js",
+    "precache-manifest.6c9f1fb5339f1a7d740f192d5af98585.js": "/anders-app/precache-manifest.6c9f1fb5339f1a7d740f192d5af98585.js",
     "service-worker.js": "/anders-app/service-worker.js",
-    "static/css/main.92720ccb.chunk.css.map": "/anders-app/static/css/main.92720ccb.chunk.css.map",
-    "static/js/2.3c671f5d.chunk.js.LICENSE.txt": "/anders-app/static/js/2.3c671f5d.chunk.js.LICENSE.txt",
-    "static/media/App.module.css": "/anders-app/static/media/1.e2037a19.jpg",
+    "static/css/main.89134cd8.chunk.css.map": "/anders-app/static/css/main.89134cd8.chunk.css.map",
+    "static/js/2.d56d8408.chunk.js.LICENSE.txt": "/anders-app/static/js/2.d56d8408.chunk.js.LICENSE.txt",
+    "static/media/HeaderComp.module.css": "/anders-app/static/media/1.e2037a19.jpg",
     "static/media/ACW_Logo_Gray.png": "/anders-app/static/media/ACW_Logo_Gray.42c62ef2.png",
+    "static/media/Husvagn_1.JPG": "/anders-app/static/media/Husvagn_1.285961f2.JPG",
+    "static/media/Maria_1.jpg": "/anders-app/static/media/Maria_1.c54c32d5.jpg",
+    "static/media/Maria_2.jpg": "/anders-app/static/media/Maria_2.c65a3073.jpg",
+    "static/media/Maria_3.jpg": "/anders-app/static/media/Maria_3.ee8e8184.jpg",
+    "static/media/Maria_4.jpg": "/anders-app/static/media/Maria_4.c5b223d9.jpg",
+    "static/media/Maria_5.jpg": "/anders-app/static/media/Maria_5.8a2dbf90.jpg",
+    "static/media/Maria_6.jpg": "/anders-app/static/media/Maria_6.4fd3f110.jpg",
+    "static/media/Maria_7.jpg": "/anders-app/static/media/Maria_7.69a1e2e8.jpg",
+    "static/media/Maria_8.jpg": "/anders-app/static/media/Maria_8.fa30704f.jpg",
     "static/media/futuran.TTF": "/anders-app/static/media/futuran.f9f02ed0.TTF"
   },
   "entrypoints": [
     "static/js/runtime-main.e18717de.js",
-    "static/js/2.3c671f5d.chunk.js",
-    "static/css/main.92720ccb.chunk.css",
-    "static/js/main.d41eaed4.chunk.js"
+    "static/js/2.d56d8408.chunk.js",
+    "static/css/main.89134cd8.chunk.css",
+    "static/js/main.ea4f4e34.chunk.js"
   ]
 }
