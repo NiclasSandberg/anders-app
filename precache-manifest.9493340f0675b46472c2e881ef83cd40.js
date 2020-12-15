@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "189ff5468f81ee556508c5f8568ff285",
+    "revision": "4ee0ff505813192cb7040d006cb2380d",
     "url": "/anders-app/index.html"
   },
   {
-    "revision": "5b4e6922e8dcc4466069",
-    "url": "/anders-app/static/css/main.5245ef73.chunk.css"
+    "revision": "ce9bbdd6e2351cab7e2f",
+    "url": "/anders-app/static/css/main.ed4953b3.chunk.css"
   },
   {
-    "revision": "a30090d0bb03b3dca564",
-    "url": "/anders-app/static/js/2.e87fc6c7.chunk.js"
+    "revision": "16d7c5351f380d8fb843",
+    "url": "/anders-app/static/js/2.e0e0eb8a.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/anders-app/static/js/2.e87fc6c7.chunk.js.LICENSE.txt"
+    "url": "/anders-app/static/js/2.e0e0eb8a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5b4e6922e8dcc4466069",
-    "url": "/anders-app/static/js/main.1a6056ff.chunk.js"
+    "revision": "ce9bbdd6e2351cab7e2f",
+    "url": "/anders-app/static/js/main.4aaede63.chunk.js"
   },
   {
     "revision": "8cd9907c89082a6db8f9",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "42c62ef2000b4249b25029cfff3f8b9f",
     "url": "/anders-app/static/media/ACW_Logo_Gray.42c62ef2.png"
+  },
+  {
+    "revision": "0325126a5c4b5e5a3b070c1659df8192",
+    "url": "/anders-app/static/media/Eklöv.0325126a.jpg"
   },
   {
     "revision": "285961f2c9bc03754350799559316798",
