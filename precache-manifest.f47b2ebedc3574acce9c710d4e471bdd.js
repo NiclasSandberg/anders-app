@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "44a1c965a41b8154c7de038a95c49b19",
+    "revision": "c13ecab54113733180256626acbc2389",
     "url": "/anders-app/index.html"
   },
   {
-    "revision": "d3f030a73883321822b3",
-    "url": "/anders-app/static/css/main.ca11b126.chunk.css"
+    "revision": "264bf04c1e837a0879c6",
+    "url": "/anders-app/static/css/main.74a2da42.chunk.css"
   },
   {
-    "revision": "dab956f19a4968a5f992",
-    "url": "/anders-app/static/js/2.966b68d6.chunk.js"
+    "revision": "02815b204f5ed70a51f4",
+    "url": "/anders-app/static/js/2.dcb8212a.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/anders-app/static/js/2.966b68d6.chunk.js.LICENSE.txt"
+    "url": "/anders-app/static/js/2.dcb8212a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d3f030a73883321822b3",
-    "url": "/anders-app/static/js/main.688cc51a.chunk.js"
+    "revision": "264bf04c1e837a0879c6",
+    "url": "/anders-app/static/js/main.b75ae445.chunk.js"
   },
   {
     "revision": "8cd9907c89082a6db8f9",
@@ -32,8 +32,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/anders-app/static/media/ACW_Logo_Gray.42c62ef2.png"
   },
   {
-    "revision": "0325126a5c4b5e5a3b070c1659df8192",
-    "url": "/anders-app/static/media/Eklöv.0325126a.jpg"
+    "revision": "937b58acdde15e5e2ba6a4e7397ad68b",
+    "url": "/anders-app/static/media/An_Apartment-with_a_View_800-croped43.937b58ac.jpg"
+  },
+  {
+    "revision": "171975039c9874342ca0466efd52c9ea",
+    "url": "/anders-app/static/media/Anders_portrait_473kb.17197503.jpg"
+  },
+  {
+    "revision": "cdb2e38b5649bc9339d4d8d78eb41955",
+    "url": "/anders-app/static/media/Birgitta-Wadman-crop.cdb2e38b.jpg"
   },
   {
     "revision": "285961f2c9bc03754350799559316798",
@@ -72,7 +80,23 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/anders-app/static/media/Maria_8.fa30704f.jpg"
   },
   {
+    "revision": "79d984a3b762dac88c787b9c6e7cd5b9",
+    "url": "/anders-app/static/media/The Island Workshop.79d984a3.jpg"
+  },
+  {
+    "revision": "56e271883492f3bcda99d9a83a3d7baa",
+    "url": "/anders-app/static/media/The-Forest-Edge-House-croped43.56e27188.jpg"
+  },
+  {
+    "revision": "62acdc06d188ac50970468bc4215c91c",
+    "url": "/anders-app/static/media/The_Fairy_Tale_Tower_croped.62acdc06.jpg"
+  },
+  {
     "revision": "f9f02ed05aa86534c3842d44cb20d6c4",
     "url": "/anders-app/static/media/futuran.f9f02ed0.TTF"
+  },
+  {
+    "revision": "395dca53ea1f39e22e7acb43bbd31728",
+    "url": "/anders-app/static/media/oakleaf.395dca53.jpg"
   }
 ]);

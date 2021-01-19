@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/anders-app/static/css/main.ca11b126.chunk.css",
-    "main.js": "/anders-app/static/js/main.688cc51a.chunk.js",
-    "main.js.map": "/anders-app/static/js/main.688cc51a.chunk.js.map",
+    "main.css": "/anders-app/static/css/main.74a2da42.chunk.css",
+    "main.js": "/anders-app/static/js/main.b75ae445.chunk.js",
+    "main.js.map": "/anders-app/static/js/main.b75ae445.chunk.js.map",
     "runtime-main.js": "/anders-app/static/js/runtime-main.e18717de.js",
     "runtime-main.js.map": "/anders-app/static/js/runtime-main.e18717de.js.map",
-    "static/js/2.966b68d6.chunk.js": "/anders-app/static/js/2.966b68d6.chunk.js",
-    "static/js/2.966b68d6.chunk.js.map": "/anders-app/static/js/2.966b68d6.chunk.js.map",
+    "static/js/2.dcb8212a.chunk.js": "/anders-app/static/js/2.dcb8212a.chunk.js",
+    "static/js/2.dcb8212a.chunk.js.map": "/anders-app/static/js/2.dcb8212a.chunk.js.map",
     "index.html": "/anders-app/index.html",
-    "precache-manifest.2c174ee2816a6680d3328e4d437ed4b7.js": "/anders-app/precache-manifest.2c174ee2816a6680d3328e4d437ed4b7.js",
+    "precache-manifest.f47b2ebedc3574acce9c710d4e471bdd.js": "/anders-app/precache-manifest.f47b2ebedc3574acce9c710d4e471bdd.js",
     "service-worker.js": "/anders-app/service-worker.js",
-    "static/css/main.ca11b126.chunk.css.map": "/anders-app/static/css/main.ca11b126.chunk.css.map",
-    "static/js/2.966b68d6.chunk.js.LICENSE.txt": "/anders-app/static/js/2.966b68d6.chunk.js.LICENSE.txt",
-    "static/media/App.module.css": "/anders-app/static/media/1.e2037a19.jpg",
+    "static/css/main.74a2da42.chunk.css.map": "/anders-app/static/css/main.74a2da42.chunk.css.map",
+    "static/js/2.dcb8212a.chunk.js.LICENSE.txt": "/anders-app/static/js/2.dcb8212a.chunk.js.LICENSE.txt",
+    "static/media/Home.module.css": "/anders-app/static/media/1.e2037a19.jpg",
     "static/media/ACW_Logo_Gray.png": "/anders-app/static/media/ACW_Logo_Gray.42c62ef2.png",
-    "static/media/Eklöv.jpg": "/anders-app/static/media/Eklöv.0325126a.jpg",
+    "static/media/An_Apartment-with_a_View_800-croped43.jpg": "/anders-app/static/media/An_Apartment-with_a_View_800-croped43.937b58ac.jpg",
+    "static/media/Anders_portrait_473kb.jpg": "/anders-app/static/media/Anders_portrait_473kb.17197503.jpg",
+    "static/media/Birgitta-Wadman-crop.jpg": "/anders-app/static/media/Birgitta-Wadman-crop.cdb2e38b.jpg",
     "static/media/Husvagn_1.JPG": "/anders-app/static/media/Husvagn_1.285961f2.JPG",
     "static/media/Maria_1.jpg": "/anders-app/static/media/Maria_1.c54c32d5.jpg",
     "static/media/Maria_2.jpg": "/anders-app/static/media/Maria_2.c65a3073.jpg",
@@ -24,12 +26,16 @@
     "static/media/Maria_6.jpg": "/anders-app/static/media/Maria_6.4fd3f110.jpg",
     "static/media/Maria_7.jpg": "/anders-app/static/media/Maria_7.69a1e2e8.jpg",
     "static/media/Maria_8.jpg": "/anders-app/static/media/Maria_8.fa30704f.jpg",
-    "static/media/futuran.TTF": "/anders-app/static/media/futuran.f9f02ed0.TTF"
+    "static/media/The Island Workshop.jpg": "/anders-app/static/media/The Island Workshop.79d984a3.jpg",
+    "static/media/The-Forest-Edge-House-croped43.jpg": "/anders-app/static/media/The-Forest-Edge-House-croped43.56e27188.jpg",
+    "static/media/The_Fairy_Tale_Tower_croped.jpg": "/anders-app/static/media/The_Fairy_Tale_Tower_croped.62acdc06.jpg",
+    "static/media/futuran.TTF": "/anders-app/static/media/futuran.f9f02ed0.TTF",
+    "static/media/oakleaf.jpg": "/anders-app/static/media/oakleaf.395dca53.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.e18717de.js",
-    "static/js/2.966b68d6.chunk.js",
-    "static/css/main.ca11b126.chunk.css",
-    "static/js/main.688cc51a.chunk.js"
+    "static/js/2.dcb8212a.chunk.js",
+    "static/css/main.74a2da42.chunk.css",
+    "static/js/main.b75ae445.chunk.js"
   ]
 }
