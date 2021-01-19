@@ -11,7 +11,7 @@ function Footer() {
         <div className={styles['footer-content']}>
           <div className={styles['logo-brand']}>
             <img className={styles['logotype']} src={ACW_Logo} alt="" />
-            <p className={styles['brand']}>CURMAN WADMAN ARCHITECTS</p>
+            <p className={styles['brand']}>CURMAN WADMAN ARCHITECTURE & CRAFT</p>
           </div>
           <div className={styles['contact-info']}>
             <p>Anders Curman Wadman <br />

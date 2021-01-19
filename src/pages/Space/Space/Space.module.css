@@ -1,0 +1,30 @@
+.Space_container {
+    margin-top:120px;
+    margin-bottom:50px;
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: #808080; 
+    
+}
+
+.Pictures {
+    width:400px;
+    text-align: center;
+    
+}
+
+.Col {
+    text-align: center;
+    padding-left:40px;
+}
+
+
+a{
+    text-decoration:none;
+    color: #808080;
+
+    -webkit-tap-highlight-color: transparent;
+ 
+  
+  }

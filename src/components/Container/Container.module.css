@@ -1,0 +1,23 @@
+.container {
+    padding: 0px 12px 24px 12px;
+    margin-top:25%;
+    
+    
+}
+
+
+@media (min-width: 1025px) {
+    .container {
+        
+        margin-top:16%;
+        
+    }
+}
+
+@media (min-width: 1439px) {
+    .container {
+        
+        margin-top:13%;
+        
+    }
+}

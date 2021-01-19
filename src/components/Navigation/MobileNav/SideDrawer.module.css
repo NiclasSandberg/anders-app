@@ -1,23 +1,25 @@
 .side-drawer {
-    height: 100%;
-    background: white;
-    box-shadow: 2px 0px 5px rgba(0,0,0, 0.5);
-    position:fixed;
+    
+    /*background: white;*/
+    /*box-shadow: 2px 0px 5px rgba(0,0,0, 0.5);*/
+    position:absolute;
     overflow:hidden;
     top:0;
     left:0;
     width:100%; 
     padding:0;
+    z-index: 9997;
+    
 }
 
 .side-drawer ul {
-    
     list-style:none;
     display:flex;
     flex-direction: column;
     padding: 0 10% 0 10%;
     padding-top: 1.875em;
     margin:0;
+
 }
 
 
@@ -53,10 +55,68 @@
     letter-spacing: 0.04em;
 }
 
-@media (min-width:769px){
+.leaf-container {
+    width:50vw;
+    display:flex;
+    align-items: center;
+    text-align: center;
+    margin-left:25%;
+    margin-right:25%;
+        
+}
+
+.oakleaf {
+    margin-top:2.5rem;
+    margin-bottom: 4rem;
+    width:100%;
+
+}
+
+.break-mobile {
+    display:inline-block;
+    margin-right:20px;
+}
+
+@media (min-width:1025px){
     .side-drawer{
+        padding-top:0!important;
+        /*display:none;*/
+    }
+    li{
+        text-align:center
         
-        display:none;
+    }
+
+    
+    .side-drawer ul {
+       padding-top: 13.5vh;
+       align-items: flex-end;
+      
+       
+    }
+
+
+    .side-drawer__items li {
+        width:27rem;
+        /*width:40rem;*/
         
+    }
+
+    .side-drawer__brand li{
+        width:100%;
+        text-align:left;
+        
+        
+    }
+    .side-drawer-layout {
+        display:flex;
+        flex-direction: row-reverse;
+    }
+
+    .leaf-container {
+        width:20vw;
+        margin-left:0%;
+        margin-right:10%;
+            
     }
 }

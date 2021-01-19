@@ -4,11 +4,15 @@ import './index.css';
 import App from './App';
 import './fonts/futuran.TTF';
 import * as serviceWorker from './serviceWorker';
+import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render(
+  <BrowserRouter>
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
+  </React.StrictMode>
+  </BrowserRouter>
+  ,
   document.getElementById('root')
 );
 

@@ -1,0 +1,51 @@
+.header-background {
+  /*
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  max-height: 100vh;
+  font-size:1rem;
+  background-image: url(../../assets/img/1.jpg);
+  
+  */
+  background-image: url(../../assets/img/1.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: top right;
+  height: 100vh;  
+  font-size: 1rem;
+
+  
+  /*
+  background-color: rgba(0,0,0, 0.2);
+    animation:fadein 2.5s;
+    
+    background-blend-mode: darken;
+
+ 
+  background-size:cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+    height: 100vh;  
+    */
+     
+    
+
+  }
+
+.container {
+ 
+ 
+ 
+ 
+ 
+}
+.space {
+  
+}

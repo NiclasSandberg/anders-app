@@ -3,6 +3,9 @@ footer {
     background-color: #EEEEEE;
     display:flex;
     flex-direction: column;
+    
+    
+    
   }
   .footer-content {
     padding:15px 1em 0.2rem 1em;
@@ -24,7 +27,7 @@ footer {
 
 .logotype {
   height:auto;
-  width:3.7rem;
+  width:2.7rem;
   
 }
 

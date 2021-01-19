@@ -1,0 +1,36 @@
+.Space_container {
+    margin-top:120px;
+    margin-bottom:50px;
+    
+    
+}
+
+.Pictures {
+    width:400px;
+    text-align: center;
+    
+}
+
+.Col {
+    text-align: center;
+    padding:15px;
+}
+
+.Row {
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+
+
+p{
+    text-decoration:none;
+    color: #808080;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.ProjectText{
+    margin:auto;
+    width:24%;
+}
