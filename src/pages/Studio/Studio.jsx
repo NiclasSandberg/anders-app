@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Studio.module.css';
 import Anders from '../../assets/img/Studio/Anders_portrait_473kb.jpg';
-import Birgitta from '../../assets/img/Studio/Birgitta-Wadman-crop.jpg';
+import Birgitta from '../../assets/img/Studio/Birgitta-Portrait.jpg';
 import Container from '../../components/Container/Container.jsx';
 
 const Studio = () => {
@@ -17,18 +17,18 @@ const Studio = () => {
 
             <div className={styles['text-wrapper']}>
                 <div className={styles['col-1']}>
-                    <h4>Profile</h4>
+                    <p className={styles['sub_headings']}>Profile</p>
                     <p>
                         Curman Wadman Architecture and Craft is a Stockholm based architecture and craft studio led by Anders Curman Wadman and Birgitta Wadman with a combined 35 years of experience as architects.
                         They both share a passion working with space sculpted by light and shadow, the sensual tactility of solid natural materials’ different textures and reflections and last but not the least an attention to details and to value a close collaboration with skilled craftsmen, carpenters and cabinetmakers.
                         The studio is primarily working for private clients with new houses, remodeling and extensions of villas, summerhouses and apartments.
                     </p>
-                    <h4>Services</h4>
+                    <p className={styles['sub_headings']}>Services</p>
                     <p>
                     To secure the best result they also have the role as Project and Production Managers, offering their clients the services of procurement of consultants and contractors, all necessary building permits and site management and supervision. They have a vast network of skilled engineers and all types of craftsmen and cabinetmakers.
                     </p>
 
-                    <h4>Experience</h4>
+                    <p className={styles['sub_headings']}>Experience</p>
                     <p>
                         Anders is a Registered Architect SAR/MSA, Timberman and Freelance Journalist with a Master in Architecture from the Royal Institute of Technology in Stockholm from 2000 with part of his later years’ studies at ETH in Zürich.
                         Birgitta is a Registered Architect SAR/MSA, Artist and former Propmaker at Norrlandsoperan with a Master in Architecture from the Royal Institute of Technology in Stockholm 2007.

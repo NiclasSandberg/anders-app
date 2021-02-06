@@ -14,33 +14,33 @@ const Architecture = () => {
                 <div className={styles['img-container']}>
                     <div className={styles['gallery-item']}>
                         <img src={Apartment_View} alt="" />
-                        <h4>An Apartment With a View</h4>
+                        <p>An Apartment With a View</p>
                     </div>
 
 
                     <div className={styles['gallery-item']}>
                         <img src={Forest} alt="" />
-                        <h4>An Apartment With a View</h4>
+                        <p>An Apartment With a View</p>
                     </div>
 
                     <div className={styles['gallery-item']}>
                         <img src={Fairy} alt="" />
-                        <h4>An Apartment With a View</h4>
+                        <p>An Apartment With a View</p>
                     </div>
 
                     <div className={styles['gallery-item']}>
                         <img src={Island_Workshop} alt="" />
-                        <h4>An Apartment With a View</h4>
+                        <p>An Apartment With a View</p>
                     </div>
 
                     <div className={styles['gallery-item']}>
                         <img src={Forest} alt="" />
-                        <h4>An Apartment With a View</h4>
+                        <p>An Apartment With a View</p>
                     </div>
 
                     <div className={styles['gallery-item']}>
                         <img src={Forest} alt="" />
-                        <h4>An Apartment With a View</h4>
+                        <p>An Apartment With a View</p>
                     </div>
 
                 </div>

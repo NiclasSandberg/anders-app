@@ -19,12 +19,12 @@ const sideDrawer = props => {
             <div className={style['side-drawer-layout']}>
             <ul onClick={props.clicked} className={style['side-drawer__items']}>
                 <li style={{ borderTop: "1px solid #a2a2a2" }}><Link to="/architecture">Architecture</Link></li>
-                <li><Link to="/Handcrafted">Handcrafted</Link></li>
-                <li><Link to="/Handcrafted">Inspiration / Videos</Link></li>
-                <li><Link to="/Handcrafted">Photography</Link></li>
+                <li><Link to="/frozen-moments">Frozen Moments</Link></li>
+                <li><Link to="/handcrafted">Handcrafted</Link></li>
                 <li><NavLink to="/studio" >Studio</NavLink></li>
-                <li><Link to="/Handcrafted">Writings</Link></li>
-                <li><Link to="/Handcrafted">Artwork</Link></li>
+                <li><Link to="/work-of-art">Work of Art</Link></li>
+                
+                
             </ul>
             <div className={style['leaf-container']}>
             <img src={Oakleaf} className={style['oakleaf']} alt="Eklöv" />

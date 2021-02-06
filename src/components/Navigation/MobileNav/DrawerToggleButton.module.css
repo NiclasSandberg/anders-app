@@ -13,7 +13,7 @@
     z-index:9998;
     outline:none;
     -webkit-tap-highlight-color: transparent; 
-    
+    margin-top:0.3rem;
 }
 
 .toggle-button__line{
