@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
+import { FaChevronRight, FaChevronLeft } from 'react-icons/fa';
+import styles from './ImageSlider.module.css';
+import CloseSlideButton from './CloseSlideButton';
 
 
 const ImageSlider = ({ slides, pictName, selectedPicture }) => {
@@ -12,21 +14,23 @@ const ImageSlider = ({ slides, pictName, selectedPicture }) => {
 
   const prevSlide = () => {
     setCurrent(current === 0 ? length - 1 : current - 1);
+    
   };
+
 
   if (!Array.isArray(slides) || slides.length <= 0) {
     return null;
   }
   
+ 
 
   return (
     
 
-    <section className='slider'>
-      <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
-      <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} />
-     
-      
+    <section className={styles['slider']}>
+      <FaChevronLeft className={styles['left-arrow']} onClick={prevSlide} />
+      <FaChevronRight className={styles['right-arrow']} onClick={nextSlide} />
+    
       {pictName.map((image, index) => {
         if(current === index){
           console.log(index);
@@ -36,14 +40,15 @@ const ImageSlider = ({ slides, pictName, selectedPicture }) => {
           <>
           {/*<div> <img src={require(`../../assets/img/Handcrafted/${image}.jpg`)} key={index} alt='travel image' className='image' /></div>
           */}
-          <div
+          {/*<div
             className={index === current ? 'slide active' : 'slide'}
-            key={index}
-          >
+        key={index}
+          >*/}
+          
             {current === index && (
-              <img src={require(`../../assets/img/Handcrafted/${image}.jpg`)} alt='travel image' className='image' />
+              <img src={require(`../../assets/img/Frozen_Moments/${image}.jpg`)} alt='travel image' className={styles['SlideImage']} />
             )}
-          </div>      </>  )};
+               </>  )};
           
       })}
     </section>

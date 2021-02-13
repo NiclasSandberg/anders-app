@@ -14,9 +14,7 @@ export default class Handcrafted extends Component {
         SelectedPic: null
       };
       
-
-
-    hideGallery = () => {
+    hideTools = () => {
         this.setState({
             showGallery: !this.state.showGallery})
     }
@@ -55,7 +53,7 @@ export default class Handcrafted extends Component {
         <div>
             <Container>
             <button label="click" onClick={this.hideCarousel} >Remove Carousel</button>
-            <div onClick={this.hideGallery}  className={styles[hideit]}>
+            <div onClick={this.hideTools}  className={styles[hideit]}>
             
             <img src={Tools} alt="tools" className={styles['tools']}/>
             <p>Tools at the Ready</p>

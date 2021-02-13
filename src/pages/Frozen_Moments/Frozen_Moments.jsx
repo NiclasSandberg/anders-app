@@ -1,35 +1,63 @@
 import React, { Component } from 'react'
 import styles from './Frozen_Moments.module.css';
-import Seascape_1 from '../../assets/img/Frozen_Moments/Seascape_I.jpg';
-import Seascape_2 from '../../assets/img/Frozen_Moments/Seascape_II.jpg';
-import Seascape_3 from '../../assets/img/Frozen_Moments/Seascape_III.jpg';
-import To_Upper_Floor from '../../assets/img/Frozen_Moments/To_the_Upper_Floor.jpg';
-import The_Hotel from '../../assets/img/Frozen_Moments/The_Hotel.jpg';
-import Shingles from '../../assets/img/Frozen_Moments/Shingles.jpg';
 import Container from '../../components/Container/Container';
+import ImageSlider from './ImageSlider';
+import Overlay from '../../components/Navigation/Overlay';
+import CloseSlideButton from './CloseSlideButton';
 
 export default class Frozen_Moments extends Component {
-    render() {
+    state = {
+        showGallery: true,
+        showSlide: false,
+        SelectedPic: null,
+        showOverlay: false
+    };
 
-        const array = ["Seascape_I","Seascape_II","Seascape_III","To_the_Upper_Floor","The_Hotel","Shingles"];
-
-        const images = array.map(image => {
-            return <div className={styles['gallery-item']}> <img key={image} src={require(`../../assets/img/Frozen_Moments/${image}.jpg`)} /> <p>{image}</p></div>
-            
+    showSlide = (index) => {
+        this.setState({
+            showSlide: true,
+            SelectedPic: index,
+            showOverlay: true,
+            showGallery: false
         })
+    }
+    showGallery = () => {
+        this.setState({
+            showGallery: true,
+            showSlide:false
+        })
+    }
+    
+    render() {
+        
+       
+        let noSpace = ''; // ändra sen class skicka med till overlay o så..
+        let showImages = this.state.showGallery ? "img-container" : "hideClass";
+       
+        
+        const array = ["Seascape_I", "Seascape_II", "Seascape_III", "To_the_Upper_Floor", "The_Hotel", "Shingles"];
 
+        const images = array.map((image, index) => {
+            noSpace = image.replaceAll('_', ' ');
+
+        return <div className={styles['gallery-item']} onClick={() => { this.showSlide(index) }} key={index} > <img src={require(`../../assets/img/Frozen_Moments/${image}.jpg`)} /> <p>{noSpace}</p></div>
+
+        })
+        let showSlide = this.state.showSlide ? <>  
+        <ImageSlider slides={images} pictName={array} selectedPicture={this.state.SelectedPic} /> 
+        <CloseSlideButton tryckte={ () => {this.showGallery()}}/> </> : null;
+       
         return (
             <div>
-            <Container>
-                <div className={styles['img-container']}>
-                    
+                <Container>
+                   
+                    <div className={styles[showImages]}>
                         {images}
-                        
-                        
-
-                </div>
-            </Container>
-        </div>
+                    </div>
+                    {showSlide}
+                    
+                </Container>
+            </div>
         )
     }
 }
