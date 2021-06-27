@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "92bab849a164afa3bca355fc4f230836",
+    "revision": "8339ca9ce3b1f480154e897947c32180",
     "url": "/anders-app/index.html"
   },
   {
-    "revision": "e98a3d858b68d1710da4",
-    "url": "/anders-app/static/css/main.f6d8d0ea.chunk.css"
+    "revision": "255be786276526140941",
+    "url": "/anders-app/static/css/main.6c4ee696.chunk.css"
   },
   {
-    "revision": "bcd04d8217dfb77c3970",
-    "url": "/anders-app/static/js/2.842c5da7.chunk.js"
+    "revision": "8c735b1ade1e8961ffbc",
+    "url": "/anders-app/static/js/2.b8d2cbbd.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/anders-app/static/js/2.842c5da7.chunk.js.LICENSE.txt"
+    "url": "/anders-app/static/js/2.b8d2cbbd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e98a3d858b68d1710da4",
-    "url": "/anders-app/static/js/main.e5727746.chunk.js"
+    "revision": "255be786276526140941",
+    "url": "/anders-app/static/js/main.1fc69085.chunk.js"
   },
   {
     "revision": "8cd9907c89082a6db8f9",
@@ -26,6 +26,62 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e2037a19fda264eaaf478057ba115707",
     "url": "/anders-app/static/media/1.e2037a19.jpg"
+  },
+  {
+    "revision": "4ffbe16c30137cf2b863fa5d6b5e62bb",
+    "url": "/anders-app/static/media/A1.4ffbe16c.jpg"
+  },
+  {
+    "revision": "b6d498b31aac94bab1ff7b6817c6c8f3",
+    "url": "/anders-app/static/media/A10.b6d498b3.jpg"
+  },
+  {
+    "revision": "3ae66500443e70b291718ed17ba671d1",
+    "url": "/anders-app/static/media/A11.3ae66500.jpg"
+  },
+  {
+    "revision": "cbe1ede649fd9690fead96f8e595eafb",
+    "url": "/anders-app/static/media/A12.cbe1ede6.jpg"
+  },
+  {
+    "revision": "3991f2006f15f4859ee1a4ff4a548152",
+    "url": "/anders-app/static/media/A13.3991f200.jpg"
+  },
+  {
+    "revision": "254b4802cf2e4013ca1d725eeae4e052",
+    "url": "/anders-app/static/media/A2.254b4802.jpg"
+  },
+  {
+    "revision": "a2bafeab2fb146dd0a7606eba210b47d",
+    "url": "/anders-app/static/media/A3.a2bafeab.jpg"
+  },
+  {
+    "revision": "9cbb7ebc5e23282c54a205710f572675",
+    "url": "/anders-app/static/media/A4.9cbb7ebc.jpg"
+  },
+  {
+    "revision": "ec7e8ac207cb858b46670b0078505f88",
+    "url": "/anders-app/static/media/A5.ec7e8ac2.jpg"
+  },
+  {
+    "revision": "c392d8e8f4abeeeeb003d20a643b12e0",
+    "url": "/anders-app/static/media/A5mobil.c392d8e8.jpg"
+  },
+  {
+    "revision": "29eaf0ec5a7b3968e8e58bf2a1e1b8de",
+    "url": "/anders-app/static/media/A6.29eaf0ec.jpg"
+  },
+  {
+    "revision": "68a860290a2d2a47b7ce70a9cbee04f9",
+    "url": "/anders-app/static/media/A7.68a86029.jpg"
+  },
+  {
+    "revision": "4a90593c6df09a202909b247883c1e4c",
+    "url": "/anders-app/static/media/A8.4a90593c.jpg"
+  },
+  {
+    "revision": "af4b20229af4c7c00708daf7f7dc0cf1",
+    "url": "/anders-app/static/media/A9.af4b2022.jpg"
   },
   {
     "revision": "42c62ef2000b4249b25029cfff3f8b9f",
@@ -42,6 +98,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d86e0b638ecff4562fdef040c59deba8",
     "url": "/anders-app/static/media/Birgitta-Portrait.d86e0b63.jpg"
+  },
+  {
+    "revision": "fb7c2f782c73ada746c3a81e0487d8a2",
+    "url": "/anders-app/static/media/C1.fb7c2f78.jpg"
+  },
+  {
+    "revision": "bba373c8d199649b0f41da8a72266572",
+    "url": "/anders-app/static/media/C2.bba373c8.jpg"
   },
   {
     "revision": "285961f2c9bc03754350799559316798",
@@ -102,6 +166,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4bd83776841053fbfff90ee95fc62262",
     "url": "/anders-app/static/media/Shingles.4bd83776.jpg"
+  },
+  {
+    "revision": "508154fa36bacd3f129605a24378d464",
+    "url": "/anders-app/static/media/The Forest Edge House.508154fa.jpg"
   },
   {
     "revision": "79d984a3b762dac88c787b9c6e7cd5b9",
