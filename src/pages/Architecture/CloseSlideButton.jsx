@@ -1,6 +1,6 @@
 import React from 'react'
 import style from './CloseSlideButton.module.css';
-import Frozen_Moments from './Frozen_Moments';
+import Architecture from './Architecture';
 
 const CloseSlideButton =  ( props ) => {
         

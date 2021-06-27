@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { FaChevronRight, FaChevronLeft } from 'react-icons/fa';
 import styles from './ImageSlider.module.css';
 import CloseSlideButton from './CloseSlideButton';
@@ -14,7 +14,6 @@ const ImageSlider = ({ slides, pictName, selectedPicture }) => {
 
   const prevSlide = () => {
     setCurrent(current === 0 ? length - 1 : current - 1);
-    
   };
 
 
@@ -22,6 +21,7 @@ const ImageSlider = ({ slides, pictName, selectedPicture }) => {
     return null;
   }
   
+
  
 
   return (
@@ -46,7 +46,9 @@ const ImageSlider = ({ slides, pictName, selectedPicture }) => {
           >*/}
           
             {current === index && (
+              
               <img src={require(`../../assets/img/Frozen_Moments/${image}.jpg`)} alt='travel image' className={styles['SlideImage']} />
+              
             )}
                </>  )};
           

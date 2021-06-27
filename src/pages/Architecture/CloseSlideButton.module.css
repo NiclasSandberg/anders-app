@@ -1,4 +1,10 @@
 .close {
+  display:hidden;
+}
+
+@media (min-width: 1024px) {
+
+.close {
     position: absolute;
     right: 35px;
     top: 32px;
@@ -32,3 +38,4 @@
   .hide {
       display:none;
   }
+}

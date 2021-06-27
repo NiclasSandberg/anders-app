@@ -12,7 +12,6 @@ import Studio from './pages/Studio/Studio';
 import Main from './components/Main/Main';
 import Home from './pages/Home/Home';
 import Architecture from './pages/Architecture/Architecture';
-import Frozen_Moments from './pages/Frozen_Moments/Frozen_Moments';
 import Handcrafted from './pages/Handcrafted/Handcrafted';
 
 class App extends Component {
@@ -62,7 +61,7 @@ class App extends Component {
     <NavBar drawerClickHandler={this.drawerToggleClickHandler} newBurgerColor={burgerColor}/>
     
     <Route path='/architecture' component={Architecture} />
-    <Route path='/frozen-moments' component={Frozen_Moments} />
+    
     <Route path='/handcrafted' component={Handcrafted} />
     <Route path='/studio' component={Studio} />
   

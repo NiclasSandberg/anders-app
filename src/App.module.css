@@ -31,7 +31,9 @@ header {
   to   { opacity: 1; }
 }
 */
-
+li {
+  color: #808080;
+}
 
 @media (min-width: 1025px) {
   header{

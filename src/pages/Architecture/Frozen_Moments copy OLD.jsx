@@ -1,9 +1,10 @@
-import React, { Component } from 'react'
+/*import React, { Component } from 'react'
 import styles from './Frozen_Moments.module.css';
 import Container from '../../components/Container/Container';
 import ImageSlider from './ImageSlider';
 import Overlay from '../../components/Navigation/Overlay';
 import CloseSlideButton from './CloseSlideButton';
+import Start_image from '../../assets/img/Architecture/A1.jpg';
 
 export default class Frozen_Moments extends Component {
     state = {
@@ -35,7 +36,8 @@ export default class Frozen_Moments extends Component {
         let showImages = this.state.showGallery ? "img-container" : "hideClass";
        
         
-        const array = ["Seascape_I", "Seascape_II", "Seascape_III", "To_the_Upper_Floor", "The_Hotel", "Shingles"];
+        const array = ["A1", "A2", "A3", "A4", "A5"];
+
 
         const images = array.map((image, index) => {
             noSpace = image.replaceAll('_', ' ');
@@ -44,7 +46,7 @@ export default class Frozen_Moments extends Component {
 
         })
         let showSlide = this.state.showSlide ? <>  
-        <ImageSlider slides={images} pictName={array} selectedPicture={this.state.SelectedPic} /> 
+        <ImageSlider slides={images} pictName={array} selectedPicture={this.state.SelectedPic}/> 
         <CloseSlideButton tryckte={ () => {this.showGallery()}}/> </> : null;
        
         return (
@@ -61,3 +63,4 @@ export default class Frozen_Moments extends Component {
         )
     }
 }
+*/
