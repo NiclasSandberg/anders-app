@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Container from '../../components/Container/Container';
 import styles from './Handcrafted.module.css';
-import ImageSlider from '../Architecture/ImageSlider';
+import ImageSliderCrafted from './ImageSliderCraft';
 import CloseSlideButton from '../Architecture/CloseSlideButton';
 import Start_image from '../../assets/img/Handcrafted/C1.jpg';
 
@@ -37,8 +37,8 @@ export default class Handcrafted extends Component {
         let showImages = this.state.showGallery ? "img-container" : "hideClass";
 
 
-        const array = ["C1", "C2"];
-        const array2 = ["C1", "C2"];
+        const array = ["C1", "C2", "C3", "C4", "C5", "C6", "C7", "C8", "C9","C10", "C11"];
+        const array2 = ["C2", "C3", "C4", "C5", "C6", "C7", "C8", "C9","C10", "C11"];
 
 
         const mobileImages = array2.map((image, index) => {
@@ -52,7 +52,7 @@ export default class Handcrafted extends Component {
 
         })
         let showSlide = this.state.showSlide ? <>
-            <ImageSlider slides={images} pictName={array} selectedPicture={this.state.SelectedPic} />
+            <ImageSliderCrafted slides={images} pictName={array} selectedPicture={this.state.SelectedPic} />
             <CloseSlideButton tryckte={() => { this.showGallery() }} /> </> : null;
 
         return (

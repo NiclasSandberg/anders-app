@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { FaChevronRight, FaChevronLeft } from 'react-icons/fa';
-import styles from './ImageSlider.module.css';
-import CloseSlideButton from './CloseSlideButton';
+import styles from './ImageSliderCraft.module.css';
+import CloseSlideButton from '../Architecture/CloseSlideButton';
 
 
 const ImageSlider = ({ slides, pictName, selectedPicture }) => {
@@ -47,7 +47,7 @@ const ImageSlider = ({ slides, pictName, selectedPicture }) => {
           
             {current === index && (
               
-              <img src={require(`../../assets/img/Architecture/${image}.jpg`)} alt='travel image' className={styles['SlideImage']} />
+              <img src={require(`../../assets/img/Handcrafted/${image}.jpg`)} alt='travel image' className={styles['SlideImage']} />
               
             )}
                </>  )};

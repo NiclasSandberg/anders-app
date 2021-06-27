@@ -1,5 +1,5 @@
 
-/*.img-container img {
+.img-container img {
     width:100%;
     object-fit:cover;
 }
@@ -43,4 +43,3 @@
 .hideClass {
     display:none;
 }
-*/
