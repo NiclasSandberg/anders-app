@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e243b385c374c465e11872a7edb45380",
+    "revision": "330919ae235c840828dd0029845c8ae2",
     "url": "/anders-app/index.html"
   },
   {
-    "revision": "9cf5342ff448fc4cfed0",
-    "url": "/anders-app/static/css/main.5198dc77.chunk.css"
+    "revision": "44d6febcfadcb91994f0",
+    "url": "/anders-app/static/css/main.c4d1e9d6.chunk.css"
   },
   {
-    "revision": "011d4cba9f7d31edc6e1",
-    "url": "/anders-app/static/js/2.0c64bc40.chunk.js"
+    "revision": "d38ed80faa9188d80e53",
+    "url": "/anders-app/static/js/2.c393b0ca.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/anders-app/static/js/2.0c64bc40.chunk.js.LICENSE.txt"
+    "url": "/anders-app/static/js/2.c393b0ca.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9cf5342ff448fc4cfed0",
-    "url": "/anders-app/static/js/main.7ecbb6d6.chunk.js"
+    "revision": "44d6febcfadcb91994f0",
+    "url": "/anders-app/static/js/main.662baa4f.chunk.js"
   },
   {
     "revision": "8cd9907c89082a6db8f9",
@@ -92,6 +92,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/anders-app/static/media/An_Apartment-with_a_View_800-croped43.937b58ac.jpg"
   },
   {
+    "revision": "1a9fcf1e85c0bb22f3f6835494bb74e0",
+    "url": "/anders-app/static/media/Anders_Lovefors.1a9fcf1e.jpg"
+  },
+  {
     "revision": "171975039c9874342ca0466efd52c9ea",
     "url": "/anders-app/static/media/Anders_portrait_473kb.17197503.jpg"
   },
@@ -100,8 +104,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/anders-app/static/media/Birgitta-Portrait.d86e0b63.jpg"
   },
   {
-    "revision": "fb7c2f782c73ada746c3a81e0487d8a2",
-    "url": "/anders-app/static/media/C1.fb7c2f78.jpg"
+    "revision": "cf080f472b4e2fc0b7066ef97afbe9e2",
+    "url": "/anders-app/static/media/C1.cf080f47.jpg"
   },
   {
     "revision": "684d9dd7f80c9abc58dd10a00bac59cb",
@@ -120,8 +124,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/anders-app/static/media/C3.2d2e9cb1.jpg"
   },
   {
-    "revision": "356dea6da9fee29610bcd9c6ef2a752c",
-    "url": "/anders-app/static/media/C4.356dea6d.jpg"
+    "revision": "7012b60eba16d0f0b23d2d72841c689d",
+    "url": "/anders-app/static/media/C4.7012b60e.jpg"
   },
   {
     "revision": "fbd0169cc0d566b3cffe339e26d80545",
