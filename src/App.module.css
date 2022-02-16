@@ -31,6 +31,12 @@ header {
   to   { opacity: 1; }
 }
 */
+h1, h2 {
+  color: #808080;
+  font-weight: normal;
+  font-size: 	1.125rem
+}
+
 li {
   color: #808080;
 }

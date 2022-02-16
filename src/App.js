@@ -41,7 +41,7 @@ class App extends Component {
     let burgerColor;
     let overlay;
     let header2;
-    
+    const basename = document.querySelector('base')?.getAttribute('href') ?? '/';  
   
 
     if (this.state.sideDrawerOpen){
@@ -52,7 +52,7 @@ class App extends Component {
     }
          
   return (
-    <Router basename={process.env.PUBLIC_URL + "/"}>
+    <Router /*basename={process.env.PUBLIC_URL + "/"}*/basename={basename}  >
     <div className="App">   
      
     {/*<header style={ this.state.homeImage ? {backgroundImage: 'none'}: {}}> */}
@@ -62,9 +62,8 @@ class App extends Component {
     
     <Route path='/architecture' component={Architecture} />
     
-    <Route path='/handcrafted' component={Handcrafted} />
+    <Route path='/craft' component={Handcrafted} />
     <Route path='/studio' component={Studio} />
-  
    
       {sideDrawer}
       

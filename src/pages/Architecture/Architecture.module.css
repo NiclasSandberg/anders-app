@@ -6,14 +6,15 @@
 
 
 .img-container {
-    
-    display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+
     
 }
 
+.mobileImages {
+  margin-bottom:12px;
+}
 
 .gallery-item{
     display:none;
@@ -24,7 +25,7 @@
 }
 
 
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
 
 li {
     text-align: unset;
@@ -37,7 +38,7 @@ li {
 .img-container {
     
   flex-direction: row;
-  width:45%;
+  width:47%;
   
   /*
   grid-template-columns: 1fr 1fr 1fr;
@@ -56,7 +57,7 @@ li {
 }
 
 .text-container {
-    margin: 0 25% 2.5% 25%;
+  margin: 0 26.39% 2.5% 26.39%;
 }
 
 .text-row {
