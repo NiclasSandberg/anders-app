@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/anders-app/static/css/main.3c33d7cd.chunk.css",
-    "main.js": "/anders-app/static/js/main.2b275bea.chunk.js",
-    "main.js.map": "/anders-app/static/js/main.2b275bea.chunk.js.map",
+    "main.js": "/anders-app/static/js/main.b7e8fc7b.chunk.js",
+    "main.js.map": "/anders-app/static/js/main.b7e8fc7b.chunk.js.map",
     "runtime-main.js": "/anders-app/static/js/runtime-main.e18717de.js",
     "runtime-main.js.map": "/anders-app/static/js/runtime-main.e18717de.js.map",
     "static/js/2.d21d2a0a.chunk.js": "/anders-app/static/js/2.d21d2a0a.chunk.js",
     "static/js/2.d21d2a0a.chunk.js.map": "/anders-app/static/js/2.d21d2a0a.chunk.js.map",
     "index.html": "/anders-app/index.html",
-    "precache-manifest.9dcfc7bb60a595d0f53998154eee3c13.js": "/anders-app/precache-manifest.9dcfc7bb60a595d0f53998154eee3c13.js",
+    "precache-manifest.62061f84a8e0b7867099b9893ded8979.js": "/anders-app/precache-manifest.62061f84a8e0b7867099b9893ded8979.js",
     "service-worker.js": "/anders-app/service-worker.js",
     "static/css/main.3c33d7cd.chunk.css.map": "/anders-app/static/css/main.3c33d7cd.chunk.css.map",
     "static/js/2.d21d2a0a.chunk.js.LICENSE.txt": "/anders-app/static/js/2.d21d2a0a.chunk.js.LICENSE.txt",
@@ -63,6 +63,6 @@
     "static/js/runtime-main.e18717de.js",
     "static/js/2.d21d2a0a.chunk.js",
     "static/css/main.3c33d7cd.chunk.css",
-    "static/js/main.2b275bea.chunk.js"
+    "static/js/main.b7e8fc7b.chunk.js"
   ]
 }
