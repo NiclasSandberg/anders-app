@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8507a09045f75bca03de2ccdaf8134f1",
+    "revision": "a63d0f31c65bb91967a8d9be3f852426",
     "url": "/anders-app/index.html"
   },
   {
-    "revision": "f748271bc7b993b9b3d4",
+    "revision": "410c3559eaa318a88c72",
     "url": "/anders-app/static/css/main.3c33d7cd.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/anders-app/static/js/2.d21d2a0a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f748271bc7b993b9b3d4",
-    "url": "/anders-app/static/js/main.b7e8fc7b.chunk.js"
+    "revision": "410c3559eaa318a88c72",
+    "url": "/anders-app/static/js/main.2b275bea.chunk.js"
   },
   {
     "revision": "8cd9907c89082a6db8f9",
