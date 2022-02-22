@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "180d814995b5a8218dee9fe41e320031",
+    "revision": "6d00c1fb610bdb72e3fffe6533f0fcf9",
     "url": "/anders-app/index.html"
   },
   {
-    "revision": "c293aae268f5acc2fe09",
-    "url": "/anders-app/static/css/main.7b67d8b4.chunk.css"
+    "revision": "9fb3f74947e7d9b95fdc",
+    "url": "/anders-app/static/css/main.205c6b2e.chunk.css"
   },
   {
-    "revision": "2e9a4348ce4f1b02760c",
-    "url": "/anders-app/static/js/2.e423ecbd.chunk.js"
+    "revision": "986b0e8858a15cf21048",
+    "url": "/anders-app/static/js/2.c404032e.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/anders-app/static/js/2.e423ecbd.chunk.js.LICENSE.txt"
+    "url": "/anders-app/static/js/2.c404032e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c293aae268f5acc2fe09",
-    "url": "/anders-app/static/js/main.c6c6874a.chunk.js"
+    "revision": "9fb3f74947e7d9b95fdc",
+    "url": "/anders-app/static/js/main.4f21abdb.chunk.js"
   },
   {
     "revision": "8cd9907c89082a6db8f9",
@@ -188,6 +188,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/anders-app/static/media/Maria_8.fa30704f.jpg"
   },
   {
+    "revision": "c34f0b89de580357e709841852cf9918",
+    "url": "/anders-app/static/media/Speed_of_life.c34f0b89.jpg"
+  },
+  {
     "revision": "508154fa36bacd3f129605a24378d464",
     "url": "/anders-app/static/media/The Forest Edge House.508154fa.jpg"
   },
@@ -202,6 +206,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "62acdc06d188ac50970468bc4215c91c",
     "url": "/anders-app/static/media/The_Fairy_Tale_Tower_croped.62acdc06.jpg"
+  },
+  {
+    "revision": "f3621cdd046dbbfd9d259da8922cee22",
+    "url": "/anders-app/static/media/WTC_Skyline_Rendering.f3621cdd.jpg"
   },
   {
     "revision": "f9f02ed05aa86534c3842d44cb20d6c4",
