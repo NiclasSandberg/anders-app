@@ -18,11 +18,11 @@ const sideDrawer = props => {
             </ul>
             <div className={style['side-drawer-layout']}>
             <ul onClick={props.clicked} className={style['side-drawer__items']}>
-                <li style={{ borderTop: "1px solid #a2a2a2" }}><Link to="/architecture">Architecture</Link></li>
+               <li style={{ borderTop: "1px solid #a2a2a2" }}><Link to="/architecture">Architecture</Link></li>
                 <li><Link to="/craft">Craft</Link></li>
                 <li><NavLink to="/studio" >Studio</NavLink></li>
-                
-                
+                 {/*<li><NavLink to="/written-words" >Written Words</NavLink></li>
+                <li><NavLink to="/architecture-rutor" >Archrutor</NavLink></li>*/}
                 
             </ul>
             <div className={style['leaf-container']}>

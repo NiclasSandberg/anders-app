@@ -23,10 +23,11 @@ const Studio = () => {
                     <p>To ensure that the completed projects meet the high vision and ambition of the studio and our clients, we oversee construction with a close dialogue with the skilled carpenters with which we collaborate on a daily basis.</p>
                     <p>The studio also has a vast specialist network in the trade, such as skilled engineers, craftsmen, carpenters and cabinetmakers.</p>
                 </div>
-                <div className={styles['img-container']}>
+                 <div className={styles['img-container']}>
                     <img src={Anders} alt="" />
                 </div>
-                <div className={styles['text-wrapper-top']}>
+                {/*
+               <div className={styles['text-wrapper-top']}>
                     <h1>Anders Curman Wadman, Founder</h1>
                     <p>Registered Architect SAR/MSA, Timber Framer and Freelance Journalist</p>
                     <p>Anders holds a Master in Architecture from the Royal Institute of Technology in Stockholm from 2000. Part of his studies in later years were spent at ETH in Zürich.</p>
@@ -71,10 +72,11 @@ const Studio = () => {
                     <p>
                         In his early years he was working as a Project Architect at Reflex Architects and then as Real Estate Developer at Locum AB.
                     </p>
+    
                 </div>
 
 
-
+*/}
             </Container>
         </>
 
