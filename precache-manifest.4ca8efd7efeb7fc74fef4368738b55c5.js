@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6d00c1fb610bdb72e3fffe6533f0fcf9",
+    "revision": "bb8284b22f93ea5c47f44e73cb7b6ecb",
     "url": "/anders-app/index.html"
   },
   {
-    "revision": "9fb3f74947e7d9b95fdc",
-    "url": "/anders-app/static/css/main.205c6b2e.chunk.css"
+    "revision": "bc6ee970ca0ac197a486",
+    "url": "/anders-app/static/css/main.fb75a69d.chunk.css"
   },
   {
-    "revision": "986b0e8858a15cf21048",
-    "url": "/anders-app/static/js/2.c404032e.chunk.js"
+    "revision": "08b0a8100c9c66d26131",
+    "url": "/anders-app/static/js/2.a42d2fa9.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/anders-app/static/js/2.c404032e.chunk.js.LICENSE.txt"
+    "url": "/anders-app/static/js/2.a42d2fa9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9fb3f74947e7d9b95fdc",
-    "url": "/anders-app/static/js/main.4f21abdb.chunk.js"
+    "revision": "bc6ee970ca0ac197a486",
+    "url": "/anders-app/static/js/main.6b3d7bb4.chunk.js"
   },
   {
     "revision": "8cd9907c89082a6db8f9",
@@ -188,10 +188,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/anders-app/static/media/Maria_8.fa30704f.jpg"
   },
   {
-    "revision": "c34f0b89de580357e709841852cf9918",
-    "url": "/anders-app/static/media/Speed_of_life.c34f0b89.jpg"
-  },
-  {
     "revision": "508154fa36bacd3f129605a24378d464",
     "url": "/anders-app/static/media/The Forest Edge House.508154fa.jpg"
   },
@@ -208,15 +204,27 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/anders-app/static/media/The_Fairy_Tale_Tower_croped.62acdc06.jpg"
   },
   {
-    "revision": "f3621cdd046dbbfd9d259da8922cee22",
-    "url": "/anders-app/static/media/WTC_Skyline_Rendering.f3621cdd.jpg"
+    "revision": "137573f76e59a82cc74ba44440771287",
+    "url": "/anders-app/static/media/cinematographic-architecture.137573f7.jpg"
   },
   {
     "revision": "f9f02ed05aa86534c3842d44cb20d6c4",
     "url": "/anders-app/static/media/futuran.f9f02ed0.TTF"
   },
   {
+    "revision": "85931a45464cdb884caa07e1a917a20b",
+    "url": "/anders-app/static/media/new-york,-new-york.85931a45.jpg"
+  },
+  {
     "revision": "395dca53ea1f39e22e7acb43bbd31728",
     "url": "/anders-app/static/media/oakleaf.395dca53.jpg"
+  },
+  {
+    "revision": "7bac8413abb19bf1a715c0a80283255d",
+    "url": "/anders-app/static/media/published-articles.7bac8413.jpg"
+  },
+  {
+    "revision": "8ce26c38bb354c3abc1a58af69e0233b",
+    "url": "/anders-app/static/media/speed-of-life.8ce26c38.jpg"
   }
 ]);

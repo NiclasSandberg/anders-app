@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/anders-app/static/css/main.205c6b2e.chunk.css",
-    "main.js": "/anders-app/static/js/main.4f21abdb.chunk.js",
-    "main.js.map": "/anders-app/static/js/main.4f21abdb.chunk.js.map",
+    "main.css": "/anders-app/static/css/main.fb75a69d.chunk.css",
+    "main.js": "/anders-app/static/js/main.6b3d7bb4.chunk.js",
+    "main.js.map": "/anders-app/static/js/main.6b3d7bb4.chunk.js.map",
     "runtime-main.js": "/anders-app/static/js/runtime-main.e18717de.js",
     "runtime-main.js.map": "/anders-app/static/js/runtime-main.e18717de.js.map",
-    "static/js/2.c404032e.chunk.js": "/anders-app/static/js/2.c404032e.chunk.js",
-    "static/js/2.c404032e.chunk.js.map": "/anders-app/static/js/2.c404032e.chunk.js.map",
+    "static/js/2.a42d2fa9.chunk.js": "/anders-app/static/js/2.a42d2fa9.chunk.js",
+    "static/js/2.a42d2fa9.chunk.js.map": "/anders-app/static/js/2.a42d2fa9.chunk.js.map",
     "index.html": "/anders-app/index.html",
-    "precache-manifest.da12a644bf85713fd2759d96fcc588e3.js": "/anders-app/precache-manifest.da12a644bf85713fd2759d96fcc588e3.js",
+    "precache-manifest.4ca8efd7efeb7fc74fef4368738b55c5.js": "/anders-app/precache-manifest.4ca8efd7efeb7fc74fef4368738b55c5.js",
     "service-worker.js": "/anders-app/service-worker.js",
-    "static/css/main.205c6b2e.chunk.css.map": "/anders-app/static/css/main.205c6b2e.chunk.css.map",
-    "static/js/2.c404032e.chunk.js.LICENSE.txt": "/anders-app/static/js/2.c404032e.chunk.js.LICENSE.txt",
+    "static/css/main.fb75a69d.chunk.css.map": "/anders-app/static/css/main.fb75a69d.chunk.css.map",
+    "static/js/2.a42d2fa9.chunk.js.LICENSE.txt": "/anders-app/static/js/2.a42d2fa9.chunk.js.LICENSE.txt",
     "static/media/Home.module.css": "/anders-app/static/media/1.e2037a19.jpg",
     "static/media/A1.jpg": "/anders-app/static/media/A1.4ffbe16c.jpg",
     "static/media/A10.jpg": "/anders-app/static/media/A10.b6d498b3.jpg",
@@ -52,19 +52,21 @@
     "static/media/Maria_6.jpg": "/anders-app/static/media/Maria_6.4fd3f110.jpg",
     "static/media/Maria_7.jpg": "/anders-app/static/media/Maria_7.69a1e2e8.jpg",
     "static/media/Maria_8.jpg": "/anders-app/static/media/Maria_8.fa30704f.jpg",
-    "static/media/Speed_of_life.jpg": "/anders-app/static/media/Speed_of_life.c34f0b89.jpg",
     "static/media/The Forest Edge House.jpg": "/anders-app/static/media/The Forest Edge House.508154fa.jpg",
     "static/media/The Island Workshop.jpg": "/anders-app/static/media/The Island Workshop.79d984a3.jpg",
     "static/media/The-Forest-Edge-House-croped43.jpg": "/anders-app/static/media/The-Forest-Edge-House-croped43.56e27188.jpg",
     "static/media/The_Fairy_Tale_Tower_croped.jpg": "/anders-app/static/media/The_Fairy_Tale_Tower_croped.62acdc06.jpg",
-    "static/media/WTC_Skyline_Rendering.jpg": "/anders-app/static/media/WTC_Skyline_Rendering.f3621cdd.jpg",
+    "static/media/cinematographic-architecture.jpg": "/anders-app/static/media/cinematographic-architecture.137573f7.jpg",
     "static/media/futuran.TTF": "/anders-app/static/media/futuran.f9f02ed0.TTF",
-    "static/media/oakleaf.jpg": "/anders-app/static/media/oakleaf.395dca53.jpg"
+    "static/media/new-york,-new-york.jpg": "/anders-app/static/media/new-york,-new-york.85931a45.jpg",
+    "static/media/oakleaf.jpg": "/anders-app/static/media/oakleaf.395dca53.jpg",
+    "static/media/published-articles.jpg": "/anders-app/static/media/published-articles.7bac8413.jpg",
+    "static/media/speed-of-life.jpg": "/anders-app/static/media/speed-of-life.8ce26c38.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.e18717de.js",
-    "static/js/2.c404032e.chunk.js",
-    "static/css/main.205c6b2e.chunk.css",
-    "static/js/main.4f21abdb.chunk.js"
+    "static/js/2.a42d2fa9.chunk.js",
+    "static/css/main.fb75a69d.chunk.css",
+    "static/js/main.6b3d7bb4.chunk.js"
   ]
 }
