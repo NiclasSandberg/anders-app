@@ -1,9 +1,9 @@
-/*import React, { Component } from 'react'
+import React, { Component } from 'react'
 import styles from './Frozen_Moments.module.css';
 import Container from '../../components/Container/Container';
-import ImageSlider from './ImageSlider';
+import ImageSlider from '../../components/ImageSlider/ImageSlider';
 import Overlay from '../../components/Navigation/Overlay';
-import CloseSlideButton from './CloseSlideButton';
+import CloseSlideButton from '../../components/ImageSlider/CloseSlideButton';
 import Start_image from '../../assets/img/Architecture/A1.jpg';
 
 export default class Frozen_Moments extends Component {
@@ -36,7 +36,7 @@ export default class Frozen_Moments extends Component {
         let showImages = this.state.showGallery ? "img-container" : "hideClass";
        
         
-        const array = ["A1", "A2", "A3", "A4", "A5"];
+        const array = ["Seascape_I", "Seascape_II", "Seascape_III", "Shingles", "The_Hotel", "To_the_Upper_Floor"];
 
 
         const images = array.map((image, index) => {
@@ -57,10 +57,8 @@ export default class Frozen_Moments extends Component {
                         {images}
                     </div>
                     {showSlide}
-                    
                 </Container>
             </div>
         )
     }
 }
-*/

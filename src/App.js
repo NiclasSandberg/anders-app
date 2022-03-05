@@ -3,7 +3,7 @@ import NavBar from "./components/Navigation/NavBar.js";
 import Footer from "./components/Footer/Footer";
 import styles from "./App.module.css";
 import SideDrawer from "./components/Navigation/MobileNav/SideDrawer.jsx";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import HeaderComp from "./components/HeaderComp/HeaderComp";
 import Space from "./pages/Space/Space/Space";
 import Apartment_with_view from "./pages/Space/Space/ApartmentWithView/ApartmentWithView";
@@ -16,6 +16,10 @@ import Handcrafted from "./pages/Handcrafted/Handcrafted";
 import WrittenWords from "./pages/WrittenWords/WrittenWords";
 import ArchitectureRutor from "./pages/Architecture Rutor/ArchitectureRutor.jsx";
 import NewYork from "./pages/WrittenWords/NewYork/NewYork";
+import SpeedofLife from "./pages/WrittenWords/SpeedofLife/SpeedofLife.jsx";
+import CinematographicArchitecture from "./pages/WrittenWords/CinematographicArchitecture/CinematographicArchitecture";
+import PublishedArticles from './pages/WrittenWords/PublishedArticles/PublishedArticles';
+import FrozenMoments from './pages/FrozenMoments/Frozen_Moments';
 
 class App extends Component {
   state = {
@@ -33,7 +37,7 @@ class App extends Component {
   componentDidMount() {
     console.log("[App.js] ComponentidMount");
   }
-
+ 
   //genom att inte ha med drawertogl..hanlder() här nere med parentes enbart pass reference, not executed
   render() {
     let sideDrawer;
@@ -64,9 +68,17 @@ class App extends Component {
 
             <Route path="/craft" component={Handcrafted} />
             <Route path="/studio" component={Studio} />
-            <Route path="/written-words" component={WrittenWords} />
+            <Route path="/frozen-moments" component={FrozenMoments} />
             <Route path="/architecture-rutor" component={ArchitectureRutor} />
-            <Route path="/new-york" component={NewYork} />
+            
+            
+            <Route exact path="/written-words" component={WrittenWords} />
+            <Route path="/written-words/speed-of-life" component={SpeedofLife} />
+            <Route path="/written-words/new-york,-new-york" component={NewYork} />
+            <Route path="/written-words/cinematographic-architecture" component={CinematographicArchitecture} />
+            <Route path="/written-words/published-articles" component={PublishedArticles} />
+            
+            
             {sideDrawer}
 
             {overlay}

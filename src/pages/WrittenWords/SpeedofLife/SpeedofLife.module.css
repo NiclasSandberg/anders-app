@@ -1,0 +1,54 @@
+h1{
+    margin-top:0.1em;
+    
+}
+
+.author1::after{
+    content: "\a";
+    white-space: pre;
+}
+
+@media (min-width: 768px){
+
+section {
+    column-count:2;
+    column-gap:2em;
+    margin-left:5%;
+    margin-right:5%;
+    margin-bottom:5%;
+}
+
+p{
+    margin-block-start: 0;
+  
+}
+
+}
+
+@media (min-width: 1024px){
+    section {
+        column-count:2;
+        column-gap:2em;
+        margin-left:15%;
+        margin-right:15%;
+        margin-bottom:4%;
+        
+    }
+}
+
+@media (min-width: 1920px){
+
+    section{
+        
+        margin-left:25%;
+        margin-right:25%;
+        margin-bottom:2.5%;
+    }
+}
+
+@media (min-width: 2560px){
+    section{
+        margin-left:30%;
+        margin-right:30%;
+    }
+}

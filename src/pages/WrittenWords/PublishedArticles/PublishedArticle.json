@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "line1": "Minimalismen bor i Marfa, Texas",
+        "line2": "Svenska Dagbladet, 2001",
+        "line3": "The permanent art collection of Chinati Foundation"
+    },
+    {
+        "id": 2,
+        "line1": "När ideal och verklighet går samman",
+        "line2": "Arkitektur, 2001 ",
+        "line3": "The architecture of Donald Judd"
+    },
+    {
+        "id": 3,
+        "line1": "New York, New York",
+        "line2": "Arkitektur, 2007",
+        "line3": "New construction in NYC"
+    },
+    {
+        "id": 4,
+        "line1": "Med livet som insats",
+        "line2": "Fotografisk tidskrift, 2007 ",
+        "line3": "Photo exhibition of Mikael Jansson"
+    },
+    {
+        "id": 5,
+        "line1":"Nytt museum för modern konst",
+      "line2":"Dagens Nyheter, 2007", 
+      "line3": "New Museum, NYC"
+    },
+    {
+        "id": 6,
+        "line1": "NY-museum",
+        "line2": "Arkitekten, 2008",
+        "line3": "New Museum, NYC"
+    },
+    {
+        "id": 7,
+        "line1": "Paris hallar rivs på nytt",
+        "line2": "Dagens Nyheter, 2008",
+        "line3": "Forum des Halles in Paris"
+    },
+    {
+        "id": 8,
+        "line1": "Nouvels segertåg över världen",
+        "line2": "Dagens Nyheter, 2008",
+        "line3": "The work of Jean Nouvel"
+    },
+    {
+        "id": 9,
+        "line1": "Jukebox för konst ",
+        "line2": "Dagens Nyheter, 2008",
+        "line3": "The work of Renzo Piano"
+    },
+    {
+        "id": 10,
+        "line1": "För den nya tidens hamnarbetare",
+        "line2": "Rum, 2008 ",
+        "line3": "Conversion of crane foundation"
+    },
+    {
+        "id": 11,
+        "line1": "Grand Piano ",
+        "line2": "Rum, 2008 ",
+        "line3": "NYT skyscraper by Renzo Piano"
+    },
+    {
+        "id": 12,
+        "line1": "Arkitekt på stjärnbesök",
+        "line2": "Dagens Nyheter, 2008",
+        "line3": "Lecture by Jean Nouvel"
+    },
+    {
+        "id": 13,
+        "line1": "Svart Spetsarkitektur",
+        "line2": "Rum, 2009",
+        "line3": "Library by Wiels Arets"
+    },
+    {
+        "id": 14,
+        "line1": "Videovitaminer på MoMA",
+        "line2": "Dagens Nyheter, 2009",
+        "line3": "Video installation by Pippilotti Rist"
+    },
+    {
+        "id": 15,
+        "line1": "Kontroversiellt konserthus klart",
+        "line2": "Dagens Nyheter, 2009",
+        "line3": "Denmark Radio’s concert house"
+    },
+    {
+        "id": 16,
+        "line1": "Den stora slyngeln",
+        "line2": "Rum, 2009",
+        "line3": "Denmark Radio’s concert house"
+    }
+]

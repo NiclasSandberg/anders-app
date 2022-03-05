@@ -4,17 +4,27 @@
     
     
 }
+@media (min-width: 576px) {
+    
+}
 
-
-@media (min-width: 1025px) {
+@media (min-width: 768px) {
     .container {
         
-        margin-top:16%;
+        margin-top:15%;
+        
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        
+        margin:16% 10% 5% 10%;
         padding:0;
     }
 }
 
-@media (min-width: 1439px) {
+@media (min-width: 1200px) {
     .container {
         
         margin-top:13%;

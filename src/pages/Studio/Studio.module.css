@@ -1,14 +1,4 @@
-.container {
-    padding: 0px 12px 24px 12px;
-    margin-top:13.5vh;
-    
-    
-}
 
-.img-container {
-  
-
-}
 img {
     /*align-self: center;*/
     width:100%;
@@ -16,20 +6,15 @@ img {
 }
 
 @media (min-width: 1025px) {
-    .container {
-        width:80%;
-        margin:auto;
-        margin-top:22.5vh;
-    }
+  
 
     .img-container {
         /*
       flex-direction: row;
       width:50%;
       */
-      margin:2rem 25% 2rem;
-      width:20%;
-      
+      margin:2rem 18.5%;
+      width:22%;
       
     }
     .text-wrapper{
@@ -43,8 +28,8 @@ img {
    
     }
     .text-wrapper-top {
-        margin-left:25%;
-        width:30%;
+        margin-left:18.5%;
+        width:37.5%;
         
     }
     .col-1 {

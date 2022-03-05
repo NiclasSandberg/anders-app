@@ -1,9 +1,40 @@
+.cont {
+    display:none;
+    height:0;
+}
+
+
+.cont2{
+    display:unset;
+    padding-left:1.5rem;
+     /* This timing applies on the way OUT */
+}
+    /*
+    display:unset;
+    animation: fade_in_show 0.9s;
+    animation: fadeInAnimation ease 1s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 6px 6px rgba(162,162,162,0.2);
+    /*text-decoration: underline;
+    -webkit-text-decoration-color: rgba(0, 0, 0, 0.4);  Safari   
+    text-decoration-color: rgba(0, 0, 0, 0.4); 
+    */
+
+
+.mind-of-architect li{
+    
+    
+    
+       
+    
+}
 .side-drawer {
     
     /*background: white;*/
     /*box-shadow: 2px 0px 5px rgba(0,0,0, 0.5);*/
     position:absolute;
     overflow:hidden;
+    overflow-x: hidden;
     top:0;
     left:0;
     width:100%; 
@@ -43,7 +74,7 @@
 .side-drawer__items li{
     padding: 30px 0 30px;
     line-height: 2;
-    border-bottom: 1px solid #a2a2a2;   
+    border-bottom: 1px solid #a2a2a2;
       
 }
     
@@ -57,10 +88,6 @@
 }
 
 .leaf-container {
-    width:50vw;
-    display:flex;
-    align-items: center;
-    text-align: center;
     margin-left:25%;
     margin-right:25%;
         
@@ -83,16 +110,11 @@
         padding-top:0!important;
         /*display:none;*/
     }
-    li{
-        text-align:center
-        
-    }
-
-    
+   
     .side-drawer ul {
        padding-top: 13.5vh;
-       align-items: flex-end;
-      
+       align-items: center;
+    
        
     }
 
@@ -100,7 +122,7 @@
     .side-drawer__items li {
         width:27rem;
         /*width:40rem;*/
-        text-align:center!important;
+        text-align:center;
         
     }
 
@@ -110,6 +132,14 @@
         
         
     }
+
+    .cont2 {
+        padding-left:0;
+    }
+    .cont2 li{
+        width:11rem;
+         /* This timing applies on the way OUT */
+    }
     .side-drawer-layout {
         display:flex;
         flex-direction: row-reverse;
@@ -117,9 +147,11 @@
 
     .leaf-container {
         width:20vw;
-        margin-left:0%;
         margin-right:10%;
         margin-top:8%;
+        
+        
             
     }
 }
+

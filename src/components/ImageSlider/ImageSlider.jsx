@@ -27,7 +27,7 @@ const ImageSlider = ({ slides, pictName, selectedPicture }) => {
   return (
     
 
-    <section className={styles['slider']}>
+    <div className={styles['slider']}>
       <FaChevronLeft className={styles['left-arrow']} onClick={prevSlide} />
       <FaChevronRight className={styles['right-arrow']} onClick={nextSlide} />
     
@@ -47,13 +47,13 @@ const ImageSlider = ({ slides, pictName, selectedPicture }) => {
           
             {current === index && (
               
-              <img src={require(`../../assets/img/Architecture/${image}.jpg`)} alt='travel image' className={styles['SlideImage']} />
+              <img src={require(`../../assets/img/Frozen_Moments/${image}.jpg`)} alt='travel image' className={styles['SlideImage']} />
               
             )}
                </>  )};
           
       })}
-    </section>
+    </div>
   );
 };
 

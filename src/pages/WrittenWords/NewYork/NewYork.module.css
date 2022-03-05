@@ -1,18 +1,28 @@
-.collumns{
+
+/*.row{
     /*display:grid;
     grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
     grid-gap: 1rem;
-    */
-  
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
-        padding: 10px;
- 
-    
+    */   
+  /*      
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    margin:auto;
+    gap:2rem;
 }
 
-.col-1 {
-    
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    height:90vh;
+}
+*/
+
+.author1::after{
+  content: "\a";
+  white-space: pre;
 }
