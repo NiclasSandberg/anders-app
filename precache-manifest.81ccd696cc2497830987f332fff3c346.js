@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1d0bc2cb8e63733d35cd0b4ec52d035d",
+    "revision": "a5107cd3fc135464778d0596aec1301c",
     "url": "/anders-app/index.html"
   },
   {
-    "revision": "1ba3d921a70daefcfe39",
-    "url": "/anders-app/static/css/main.f463b3b5.chunk.css"
+    "revision": "3c20ce39c8f44bc55c21",
+    "url": "/anders-app/static/css/main.7335a256.chunk.css"
   },
   {
-    "revision": "6194f31ca37a3cac8591",
-    "url": "/anders-app/static/js/2.5255c587.chunk.js"
+    "revision": "5ddbd04492988b55de91",
+    "url": "/anders-app/static/js/2.0910cac9.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/anders-app/static/js/2.5255c587.chunk.js.LICENSE.txt"
+    "url": "/anders-app/static/js/2.0910cac9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1ba3d921a70daefcfe39",
-    "url": "/anders-app/static/js/main.6bfa2418.chunk.js"
+    "revision": "3c20ce39c8f44bc55c21",
+    "url": "/anders-app/static/js/main.dde9ffea.chunk.js"
   },
   {
     "revision": "8cd9907c89082a6db8f9",
@@ -250,5 +250,17 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "cbbe729e32297849c457f23d6571bcd0",
     "url": "/anders-app/static/media/speed-of-life.cbbe729e.jpg"
+  },
+  {
+    "revision": "0cec7d7b99fa026bc17259de36f54dd3",
+    "url": "/anders-app/static/media/view-from-window-1300.0cec7d7b.jpg"
+  },
+  {
+    "revision": "c4e03254f3ea7949e24cef40770f162d",
+    "url": "/anders-app/static/media/view-from-window-500-cropped.c4e03254.jpg"
+  },
+  {
+    "revision": "39972dee9c8899692d80d44c0271053a",
+    "url": "/anders-app/static/media/view-from-window-700.39972dee.jpg"
   }
 ]);

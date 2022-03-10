@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/anders-app/static/css/main.f463b3b5.chunk.css",
-    "main.js": "/anders-app/static/js/main.6bfa2418.chunk.js",
-    "main.js.map": "/anders-app/static/js/main.6bfa2418.chunk.js.map",
+    "main.css": "/anders-app/static/css/main.7335a256.chunk.css",
+    "main.js": "/anders-app/static/js/main.dde9ffea.chunk.js",
+    "main.js.map": "/anders-app/static/js/main.dde9ffea.chunk.js.map",
     "runtime-main.js": "/anders-app/static/js/runtime-main.e18717de.js",
     "runtime-main.js.map": "/anders-app/static/js/runtime-main.e18717de.js.map",
-    "static/js/2.5255c587.chunk.js": "/anders-app/static/js/2.5255c587.chunk.js",
-    "static/js/2.5255c587.chunk.js.map": "/anders-app/static/js/2.5255c587.chunk.js.map",
+    "static/js/2.0910cac9.chunk.js": "/anders-app/static/js/2.0910cac9.chunk.js",
+    "static/js/2.0910cac9.chunk.js.map": "/anders-app/static/js/2.0910cac9.chunk.js.map",
     "index.html": "/anders-app/index.html",
-    "precache-manifest.80b1ffa899558ce8f1f4514aed707687.js": "/anders-app/precache-manifest.80b1ffa899558ce8f1f4514aed707687.js",
+    "precache-manifest.81ccd696cc2497830987f332fff3c346.js": "/anders-app/precache-manifest.81ccd696cc2497830987f332fff3c346.js",
     "service-worker.js": "/anders-app/service-worker.js",
-    "static/css/main.f463b3b5.chunk.css.map": "/anders-app/static/css/main.f463b3b5.chunk.css.map",
-    "static/js/2.5255c587.chunk.js.LICENSE.txt": "/anders-app/static/js/2.5255c587.chunk.js.LICENSE.txt",
+    "static/css/main.7335a256.chunk.css.map": "/anders-app/static/css/main.7335a256.chunk.css.map",
+    "static/js/2.0910cac9.chunk.js.LICENSE.txt": "/anders-app/static/js/2.0910cac9.chunk.js.LICENSE.txt",
     "static/media/Home.module.css": "/anders-app/static/media/1.e2037a19.jpg",
     "static/media/A1.jpg": "/anders-app/static/media/A1.4ffbe16c.jpg",
     "static/media/A10.jpg": "/anders-app/static/media/A10.b6d498b3.jpg",
@@ -67,12 +67,15 @@
     "static/media/new-york,-new-york.jpg": "/anders-app/static/media/new-york,-new-york.5c2e26b0.jpg",
     "static/media/oakleaf.jpg": "/anders-app/static/media/oakleaf.395dca53.jpg",
     "static/media/published-articles.jpg": "/anders-app/static/media/published-articles.a6e3a996.jpg",
-    "static/media/speed-of-life.jpg": "/anders-app/static/media/speed-of-life.cbbe729e.jpg"
+    "static/media/speed-of-life.jpg": "/anders-app/static/media/speed-of-life.cbbe729e.jpg",
+    "static/media/view-from-window-1300.jpg": "/anders-app/static/media/view-from-window-1300.0cec7d7b.jpg",
+    "static/media/view-from-window-500-cropped.jpg": "/anders-app/static/media/view-from-window-500-cropped.c4e03254.jpg",
+    "static/media/view-from-window-700.jpg": "/anders-app/static/media/view-from-window-700.39972dee.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.e18717de.js",
-    "static/js/2.5255c587.chunk.js",
-    "static/css/main.f463b3b5.chunk.css",
-    "static/js/main.6bfa2418.chunk.js"
+    "static/js/2.0910cac9.chunk.js",
+    "static/css/main.7335a256.chunk.css",
+    "static/js/main.dde9ffea.chunk.js"
   ]
 }
