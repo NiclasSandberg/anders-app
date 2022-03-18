@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/anders-app/static/css/main.ca583198.chunk.css",
-    "main.js": "/anders-app/static/js/main.de5ad791.chunk.js",
-    "main.js.map": "/anders-app/static/js/main.de5ad791.chunk.js.map",
+    "main.css": "/anders-app/static/css/main.8dcf7af4.chunk.css",
+    "main.js": "/anders-app/static/js/main.a4420cd7.chunk.js",
+    "main.js.map": "/anders-app/static/js/main.a4420cd7.chunk.js.map",
     "runtime-main.js": "/anders-app/static/js/runtime-main.e18717de.js",
     "runtime-main.js.map": "/anders-app/static/js/runtime-main.e18717de.js.map",
-    "static/js/2.539cf7eb.chunk.js": "/anders-app/static/js/2.539cf7eb.chunk.js",
-    "static/js/2.539cf7eb.chunk.js.map": "/anders-app/static/js/2.539cf7eb.chunk.js.map",
+    "static/js/2.692b2e3e.chunk.js": "/anders-app/static/js/2.692b2e3e.chunk.js",
+    "static/js/2.692b2e3e.chunk.js.map": "/anders-app/static/js/2.692b2e3e.chunk.js.map",
     "index.html": "/anders-app/index.html",
-    "precache-manifest.baec24e6c1726fd4bfee338a2ed30f23.js": "/anders-app/precache-manifest.baec24e6c1726fd4bfee338a2ed30f23.js",
+    "precache-manifest.73dd044fe332284ca410923062a7e54a.js": "/anders-app/precache-manifest.73dd044fe332284ca410923062a7e54a.js",
     "service-worker.js": "/anders-app/service-worker.js",
-    "static/css/main.ca583198.chunk.css.map": "/anders-app/static/css/main.ca583198.chunk.css.map",
-    "static/js/2.539cf7eb.chunk.js.LICENSE.txt": "/anders-app/static/js/2.539cf7eb.chunk.js.LICENSE.txt",
+    "static/css/main.8dcf7af4.chunk.css.map": "/anders-app/static/css/main.8dcf7af4.chunk.css.map",
+    "static/js/2.692b2e3e.chunk.js.LICENSE.txt": "/anders-app/static/js/2.692b2e3e.chunk.js.LICENSE.txt",
     "static/media/Home.module.css": "/anders-app/static/media/1.e2037a19.jpg",
     "static/media/A1.jpg": "/anders-app/static/media/A1.4ffbe16c.jpg",
     "static/media/A10.jpg": "/anders-app/static/media/A10.b6d498b3.jpg",
@@ -43,7 +43,6 @@
     "static/media/C7.jpg": "/anders-app/static/media/C7.5ebe4cfb.jpg",
     "static/media/C8.jpg": "/anders-app/static/media/C8.b12c62df.jpg",
     "static/media/C9.jpg": "/anders-app/static/media/C9.7e4c0a32.jpg",
-    "static/media/Husvagn_1.JPG": "/anders-app/static/media/Husvagn_1.285961f2.JPG",
     "static/media/Maria_1.jpg": "/anders-app/static/media/Maria_1.c54c32d5.jpg",
     "static/media/Maria_2.jpg": "/anders-app/static/media/Maria_2.c65a3073.jpg",
     "static/media/Maria_3.jpg": "/anders-app/static/media/Maria_3.ee8e8184.jpg",
@@ -74,8 +73,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e18717de.js",
-    "static/js/2.539cf7eb.chunk.js",
-    "static/css/main.ca583198.chunk.css",
-    "static/js/main.de5ad791.chunk.js"
+    "static/js/2.692b2e3e.chunk.js",
+    "static/css/main.8dcf7af4.chunk.css",
+    "static/js/main.a4420cd7.chunk.js"
   ]
 }
