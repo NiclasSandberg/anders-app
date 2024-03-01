@@ -51,6 +51,8 @@ const NewYork = () => {
           fem huvudfaktorer, som energieffektivitet, materialval och
           inomhusklimat, vägs in.
         </p>
+        </section>
+      <section>
         <p>
           SANTIAGO CALATRAVAS BIDRAG till Manhattans skyline är ett visionärt,
           icke realiserat förslag, 80 South Street (2003), bestående av tolv
@@ -61,7 +63,7 @@ const NewYork = () => {
           30 32 arkitektur 7-2007 de två nedersta kuberna skulle användas för
           kommersiell verksamhet).
         </p>
-
+      
         <p>
           Ett annat projekt i betydligt mindre skala men med desto större
           arkitektonisk pregnans är Herzog & de Meurons nya bostadshus på 40
@@ -74,7 +76,7 @@ const NewYork = () => {
           stycke bostadsarkitektur till en helt annan dignitet än vad vi, även
           på Manhattan, är vana vid.
         </p>
-      </section>
+        </section>
       <section>
         <p>
           TILL DE MER INTRESSANTA kontoren i New York hör utan tvekan det äkta
@@ -127,7 +129,7 @@ const NewYork = () => {
           installationer. Renzo Piano har åtagit sig uppdraget att rita
           byggnaden som beräknas stå klar inom fem år.
         </p>
-      </section>
+        </section>
       <section>
         <p>
           ETT ANNAT INHEMSKT kontor som utmärkt sig på senare år är
@@ -180,8 +182,12 @@ const NewYork = () => {
           tänkte sig nämligen att museets huvudentré skulle flyttas från 53rd
           Street till 54th Street, där enligt honom ”…a quiet, more reflective
           atmosphere, suitable for an art museum, prevails” medan museets
-          kommersiella utrymmen skulle förläggas utmed 53rd Street. Dess
-          flyttade entrés nya identitet skulle betonas genom att ”A seamless
+          kommersiella utrymmen skulle förläggas utmed 53rd Street. 
+          </p>
+          </section>
+          <section>
+          <p>
+          Dess flyttade entrés nya identitet skulle betonas genom att ”A seamless
           architectural expression of simple geometric volumes will create a
           powerful horizontal presence on Fifty-fourth Street, in stark contrast
           to the random verticality of Manhattan, establishing the Museum as a
@@ -198,8 +204,7 @@ const NewYork = () => {
           över. Museets rumsliga organisation inbjuder besökarna att fritt välja
           sin egen väg genom konsthistorien.
         </p>
-      </section>
-      <section>
+      
         <p>
           I slutet av året (1 december) öppnar efter två års byggande även
           Sejima + Nishizawa/SANAAs New Museum of Contemporary Art på gränsen

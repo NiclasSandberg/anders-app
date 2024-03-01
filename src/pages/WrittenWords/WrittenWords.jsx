@@ -13,7 +13,7 @@ const WrittenWords = () => {
     
     
     const mobileImages = array.map((image, index) => {
-        title = image.replaceAll('-', ' ').toLocaleUpperCase();
+        title = image.replace(/-/g, ' ').toLocaleUpperCase(); 
         
         return  <div className={styles['gallery-item']}key={index} >
             <Link to={`${url}`+"/"+image} > <img alt={altText[index]} src={require(`../../assets/img/Written_Words/${image}.jpg`)} /></Link>

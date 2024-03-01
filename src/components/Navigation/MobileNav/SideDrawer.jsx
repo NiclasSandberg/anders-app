@@ -4,25 +4,35 @@ import Oakleaf from "../../../assets/img/oakleaf.jpg";
 import { Link, NavLink, useRouteMatch } from "react-router-dom";
 
 const SideDrawer = (props) => {
-  const [isActive, setActive] = useState(false);
-
-  const toggleClass = () => {
-    setActive(!isActive);
+  const [isActiveFroz, setActiveFroz] = useState(props.openFroz);
+  const [isActiveMind, setActiveMind] = useState(props.openMind);
+ 
+  const toggleClassFroz = () => {
+    console.log('toggle class FROZ');
+  
+    setActiveFroz(!isActiveFroz);
   };
 
+  const toggleClassMind = () => {
+    setActiveMind(!isActiveMind);
+  };
+  console.log('rerendering SIDEDRAWER');
   return (
+    <>
     <nav className={style["side-drawer"]}>
       <ul className={style["side-drawer__brand"]}>
+      <div onClick={props.clickedNoneSubMenu}>
         <li>
           <Link onClick={props.clicked} to="/">
             CURMAN WADMAN{" "}
             <span className={style["break-mobile"]}>ARCHITECTURE & CRAFT</span>
           </Link>
         </li>
+        </div>
       </ul>
       <div className={style["side-drawer-layout"]}>
         <ul className={style["side-drawer__items"]}>
-          <li
+        <div onClick={props.clickedNoneSubMenu}> <li
             onClick={props.clicked}
             style={{ borderTop: "1px solid #a2a2a2" }}
           >
@@ -30,23 +40,32 @@ const SideDrawer = (props) => {
           </li>
           <li onClick={props.clicked}>
             <Link to="/craft">Craft</Link>
-          </li>
-          <li onClick={props.clicked}><Link to="/frozen-moments">Frozen Moments</Link></li>
-          <li onClick={toggleClass} className={style[isActive ? 'mind-of-architect' : null]}> <span style={{ cursor: 'pointer' }}>Mind of an Architect</span></li>
-          <div className={style[isActive ? 'cont2' : 'cont']}>
-            <li className={style['mind-of-archiect']}><Link to="/architecture"><span>Beauty</span></Link></li>
-            <li><Link to="/architecture"><span>Keep on Dreaming</span></Link></li>
-            <li><Link to="/architecture"><span>On Architecture</span></Link></li>
-            <li><Link to="/architecture"><span>Slowtecture</span></Link></li>
-
+            </li>
+            </div>
+         <div onClick={props.clickedSubMenuFroz}> <li onClick={() => {    
+          toggleClassFroz()
+        }} > <span className={style['dropDownTitle']}>Frozen Moments</span></li></div>
+          <div className={style[isActiveFroz ? 'showFroz' : 'hideFroz']}>
+          <li onClick={props.clicked}><Link to="/frozen-moments/black-white">Black & White</Link></li>
+          <li onClick={props.clicked}><Link to="/frozen-moments/colour">Colour</Link></li>
           </div>
+          <div onClick={props.clickedSubMenuMind}>
+          <li onClick={() => {    
+          toggleClassMind()}}> 
+          <span className={style['dropDownTitle']}>Mind of an Architect</span></li></div>
+          <div className={style[isActiveMind ? 'showMind' : 'hideMind']}>
+            <li onClick={props.clicked}><Link to="/mind-of-an-architect/beauty"><span>Beauty</span></Link></li>
+            <li onClick={props.clicked}><Link to="/mind-of-an-architect/keep-on-dreaming"><span>Keep on Dreaming</span></Link></li>
+            <li onClick={props.clicked}><Link to="/mind-of-an-architect/on-architecture"><span>On Architecture</span></Link></li>
+          </div>
+          <div onClick={props.clickedNoneSubMenu}>
           <li onClick={props.clicked}>
             <NavLink to="/studio">Studio</NavLink>
           </li>
           <li onClick={props.clicked}>
             <NavLink to="/written-words">Written Words</NavLink>
           </li>
-
+          </div>
           {/*<li><NavLink to="/architecture-rutor" >Archrutor</NavLink></li>*/}
         </ul>
 
@@ -55,6 +74,7 @@ const SideDrawer = (props) => {
         </div>
       </div>
     </nav>
+    </>
   );
 };
 

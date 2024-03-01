@@ -18,7 +18,7 @@ const navBar = (props) => (
 
       <DrawerToggleButton
         click={props.drawerClickHandler}
-        burgerColorToggle={props.newBurgerColor}
+        sideDrawerIsOpen={props.sideDrawerIsOpen}
       />
     </nav>
   

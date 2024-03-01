@@ -15,8 +15,8 @@ function Footer() {
           </div>
           <div className={styles['contact-info']}>
             <ul>
-              <li>Anders Curman Wadman </li>
-              <li> Architect <span style={{fontSize: '0.85em'}}>SAR/MSA </span></li>
+              <li>Anders Curman </li>
+              <li> Senior Architect <span style={{fontSize: '0.85em'}}>SAR/MSA </span></li>
                
                <li>Log Builder/Timber Framer</li>
            
@@ -33,14 +33,14 @@ function Footer() {
             </p>
             */}
             <ul>
-              <li>Based in the Archipelago</li>
-              <li>Satellite office in Västerbotten</li>
+              <li>Curman Wadman Architecture & Craft AB</li>
+              <li>Grenadjärsvägen 6</li>
+              <li>185 41 Vaxholm, Sweden</li>
               <li><a href="tel+46-(0)70-203 07 58">+46-(0)70-203 07 58</a></li>
-              <li>A Heartfelt Thank</li>
             </ul>
            
           </div>
-          <ul ><a href="https://www.instagram.com/cwarc.se/">
+          <ul ><a href="https://www.instagram.com/timber_architect/">
             <i className="fa fa-instagram" style={{fontSize:'30px', opacity:"0.65"}}></i></a></ul>
         </div>
 

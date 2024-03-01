@@ -1,10 +1,13 @@
+.hide-it{
+  display:none;
+}
 
 
 body {
   font-family: futuran; 
   margin:0;
   padding:0;
-
+  
 }
 
 .page-container {
@@ -19,6 +22,11 @@ body {
   min-height:100vh;
   
   
+}
+
+a {
+  color:#808080;
+  text-decoration: none;
 }
 header {
   margin-top:15vh;
@@ -46,7 +54,8 @@ header {
 h1, h2 {
   color: #808080;
   font-weight: normal;
-  font-size: 	1.125rem
+  font-size: 	1.125rem;
+  text-decoration: none;
 }
 
 ul li {
@@ -59,4 +68,12 @@ ul li {
     margin-top:22.5vh;
   }
 }
+
+/*
+@media (-webkit-device-pixel-ratio: 1.25) {
+  * {
+    zoom: 0.8;
+  }
+}
+*/
 

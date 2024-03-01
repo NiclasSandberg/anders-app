@@ -1,13 +1,19 @@
+/*@keyframes overlay {
+    from { opacity: 0.6; }
+    to   { opacity: 1; }
+  }
+  */
 .overlay {
     
     min-height:100vh;
     background: white;
     position:fixed;
-    overflow:hidden;
+   /* overflow:hidden;*/
     top:0;
     left:0;
     width:100%; 
     padding:0;
     z-index:1;
+    animation: overlay 0.8s;
     
 }

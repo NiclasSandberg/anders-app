@@ -1,3 +1,11 @@
+.architecture-container {
+ width:90vw;
+ margin:auto;
+}
+.text-container {
+ /*text-align: center;*/
+
+}
 
 .img-container img {
     width:100%;
@@ -58,6 +66,7 @@ li {
 
 .text-container {
   margin: 0 26.39% 2.5% 26.39%;
+  white-space: nowrap;
 }
 
 .text-row {
@@ -80,7 +89,10 @@ li {
   display: flex;
   flex-direction: column;
   width:50%;
-  
+}
+
+.architecture-container {
+  width:35vw;
 }
 
 }

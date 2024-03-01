@@ -57,6 +57,10 @@ footer {
     display:flex;
     gap:1.5em; 
   }
+
+  .contact-info ul{
+    margin:0;
+  }
   .logo-brand{
     text-align: center;
   

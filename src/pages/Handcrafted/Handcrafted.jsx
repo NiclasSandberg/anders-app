@@ -20,7 +20,7 @@ export default class Handcrafted extends Component {
                     </div>
                     
                     <div className={styles['text-container']}>
-                    <p>Under construction: Craft projects to be launched on the web page in Q2 2022.</p>
+                    <p>Under construction: To be launched Q2 2024</p>
                     </div>
                     
 

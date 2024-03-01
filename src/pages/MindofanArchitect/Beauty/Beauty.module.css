@@ -1,0 +1,24 @@
+.beauty-container img {}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {
+
+    .beauty-container {
+        width:40vw;
+        margin:auto;
+        
+    }
+    p{
+        margin-top:1rem;
+    }
+    
+}
+
+@media (min-width: 1025px) {
+    .beauty-container {
+        width:30vw;
+        margin:auto;
+        
+    }
+}

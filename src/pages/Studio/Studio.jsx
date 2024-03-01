@@ -13,17 +13,18 @@ const Studio = () => {
             <Container>
                 <div className={styles['text-wrapper-top']}>
                     <h1>Profile</h1>
-                    <p>CWARC has a unique design and build profile, with Anders trained both as an Architect and Timber Framer. He has extensive experience working with classified, heritage and landmarked buildings and traditional craft as well as contemporary design.</p>
+                    <p>CWARC has a unique design and build profile, with Anders trained both as an Architect and Log Builder/Timber Framer. He has extensive international experience working with classified, heritage and landmarked buildings and traditional craft as well as contemporary design.</p>
+                    <p>Anders is also a former partnerof the international critical acclaimed Danish architecture practise 3XN Arcitects. He held the position as Chief Operating Officer at the Stockholm branch office, which he co-founded. Furthermore he was a key figure and deeply involved as Project Architect/Project Manager in the Swedish projects.</p>
                     <p>Our passion is working and sculpting spaces with light and shadow; harnessing the sensual tactility of solid natural materials’ different textures and reflections. We pay keen attention to detail and value a close collaboration with clients and other skilled craftsmen, carpenters and cabinetmakers.</p>
                     <p>The studio’s projects are designed to bring an element of the unexpected, intending to make you feel at ease in the space.</p>
                     <p>Working primarily with private clients, we specialize in new homes, as well as the remodeling and extensions of villas, summerhouses, and apartments. </p>
                     <p>CWARC prides itself on a solid track record of successfully completed projects.</p>
-                    <h1 style={{marginTop: "1.6rem"}}>Services</h1>
+                    <h1 style={{ marginTop: "1.6rem" }}>Services</h1>
                     <p>To secure the best result with the completed projects, we also take on the role of Project and Construction Manager. We can procure consultants, contractors and all necessary building permits, and provide site management and supervision, ensuring that the project is finished on time and budget.</p>
                     <p>To ensure that the completed projects meet the high vision and ambition of the studio and our clients, we oversee construction with a close dialogue with the skilled carpenters with which we collaborate on a daily basis.</p>
                     <p>The studio also has a vast specialist network in the trade, such as skilled engineers, craftsmen, carpenters and cabinetmakers.</p>
                 </div>
-                 <div className={styles['img-container']}>
+                <div className={styles['img-container']}>
                     <img src={Anders} alt="" />
                 </div>
                 {/*

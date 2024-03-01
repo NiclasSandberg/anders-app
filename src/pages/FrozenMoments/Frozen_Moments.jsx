@@ -1,64 +1,106 @@
-import React, { Component } from 'react'
-import styles from './Frozen_Moments.module.css';
-import Container from '../../components/Container/Container';
-import ImageSlider from '../../components/ImageSlider/ImageSlider';
-import Overlay from '../../components/Navigation/Overlay';
-import CloseSlideButton from '../../components/ImageSlider/CloseSlideButton';
-import Start_image from '../../assets/img/Architecture/A1.jpg';
+import React, { Component, createRef } from "react";
+import styles from "./Frozen_Moments.module.css";
+import Container from "../../components/Container/Container";
+import ImageSlider from "../../components/ImageSlider/ImageSlider";
+import CloseSlideButton from "../../components/ImageSlider/CloseSlideButton";
 
 export default class Frozen_Moments extends Component {
+    constructor(props) {
+        super(props);
+        this.myRef = React.createRef();
+    }
+    
     state = {
         showGallery: true,
         showSlide: false,
         SelectedPic: null,
-        showOverlay: false
+        theposition: ""
     };
-
-    showSlide = (index) => {
-        this.setState({
-            showSlide: true,
-            SelectedPic: index,
-            showOverlay: true,
-            showGallery: false
-        })
+    
+    componentDidUpdate() {
+        console.log('component did update - Frozemoments.js')
+        if (
+            this.state.showGallery ? window.scrollTo(0, this.state.theposition) 
+            : null
+        );
+       
     }
+
     showGallery = () => {
         this.setState({
             showGallery: true,
-            showSlide:false
-        })
-    }
+            showSlide: false
+        });   
+    };
+
+    showSlide = (index) => {
+        const winScroll =
+            document.body.scrollTop || document.documentElement.scrollTop;
+
+        this.setState({
+            theposition: winScroll,
+            showSlide: true,
+            SelectedPic: index,
+            showGallery: false,
+        });
+        window.scrollTo(0, 0);
+    };
     
     render() {
         
-       
-        let noSpace = ''; // ändra sen class skicka med till overlay o så..
+        let noSpace = ""; 
         let showImages = this.state.showGallery ? "img-container" : "hideClass";
-       
-        
-        const array = ["Seascape_I", "Seascape_II", "Seascape_III", "Shingles", "The_Hotel", "To_the_Upper_Floor"];
 
+        const array = [
+            "Seascape_I",
+            "Seascape_II",
+            "Seascape_III",
+            "Shingles",
+            "The_Hotel",
+            "To_the_Upper_Floor",
+        ];
 
         const images = array.map((image, index) => {
-            noSpace = image.replaceAll('_', ' ');
+            noSpace = image.replace(/_/g, " ");
 
-        return <div className={styles['gallery-item']} onClick={() => { this.showSlide(index) }} key={index} > <img src={require(`../../assets/img/Frozen_Moments/${image}.jpg`)} /> <p>{noSpace}</p></div>
+            return (
+                <div
+                    className={styles["gallery-item"]}
+                    onClick={() => {
+                        this.showSlide(index);
+                    }}
+                    key={index}
+                >
+                    <img
+                        src={require(`../../assets/img/Frozen_Moments/${image}.jpg`)}
+                        key={index}
+                    />
+                    <p>{noSpace}</p>
+                </div>
+            );
+        });
 
-        })
-        let showSlide = this.state.showSlide ? <>  
-        <ImageSlider slides={images} pictName={array} selectedPicture={this.state.SelectedPic}/> 
-        <CloseSlideButton tryckte={ () => {this.showGallery()}}/> </> : null;
-       
+        let showSlide = this.state.showSlide ? (
+            <>
+                <ImageSlider
+                    slides={images}
+                    pictNameBlack={array}
+                    selectedPicture={this.state.SelectedPic}
+                    photoTypes={'black'}
+                />
+                <CloseSlideButton
+                    tryckte={() => {
+                        this.showGallery();
+                    }}
+                />{" "}
+            </>
+        ) : null;
+
         return (
-            <div>
-                <Container>
-                   
-                    <div className={styles[showImages]}>
-                        {images}
-                    </div>
-                    {showSlide}
-                </Container>
-            </div>
-        )
+            <Container>
+                <div className={styles[showImages]}>{images}</div>
+                {showSlide}
+            </Container>
+        );
     }
 }

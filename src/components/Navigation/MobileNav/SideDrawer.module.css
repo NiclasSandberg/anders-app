@@ -1,13 +1,40 @@
-.cont {
+.dropDownTitle{
+    cursor: pointer; 
+    user-select:none;
+}
+.dropDownTitle:hover{
+    color:rgba(0,0,0, 0.5);
+}
+
+.hideMind {
+    display:none;
+    height:0;
+}
+
+.showMind{
+    display:unset;
+    padding-left:2rem;
+    border-bottom: 1px solid #a2a2a2!important; 
+}
+.showMind li{
+    border-bottom: 0px solid #a2a2a2!important; 
+    padding:15px 0px 15px!important;
+}
+
+.hideFroz {
     display:none;
     height:0;
 }
 
 
-.cont2{
+.showFroz{
     display:unset;
-    padding-left:1.5rem;
-     /* This timing applies on the way OUT */
+    padding-left:2rem;
+    border-bottom: 1px solid #a2a2a2!important; 
+}
+.showFroz li{
+    border-bottom: 0px solid #a2a2a2!important; 
+    padding:15px 0px 15px!important;
 }
     /*
     display:unset;
@@ -19,15 +46,6 @@
     -webkit-text-decoration-color: rgba(0, 0, 0, 0.4);  Safari   
     text-decoration-color: rgba(0, 0, 0, 0.4); 
     */
-
-
-.mind-of-architect li{
-    
-    
-    
-       
-    
-}
 .side-drawer {
     
     /*background: white;*/
@@ -73,7 +91,7 @@
 
 .side-drawer__items li{
     padding: 30px 0 30px;
-    line-height: 2;
+    line-height: 1;
     border-bottom: 1px solid #a2a2a2;
       
 }
@@ -108,21 +126,27 @@
 @media (min-width:1025px){
     .side-drawer{
         padding-top:0!important;
+        padding-bottom:2rem;
         /*display:none;*/
     }
    
     .side-drawer ul {
        padding-top: 13.5vh;
-       align-items: center;
+       
     
        
     }
 
+    .side-drawer__items {
+        width:27rem;
+    }
 
     .side-drawer__items li {
-        width:27rem;
+        /*width:27rem;*/
         /*width:40rem;*/
-        text-align:center;
+       
+        width:100%;
+       /* text-align:center;*/
         
     }
 
@@ -133,13 +157,18 @@
         
     }
 
-    .cont2 {
-        padding-left:0;
+.showMind {
+        padding:0.9rem;
+        padding-left:2rem;
     }
-    .cont2 li{
-        width:11rem;
-         /* This timing applies on the way OUT */
+    .showFroz{
+        padding:0.9rem;
+        padding-left:2rem;
     }
+
+   
+
+   
     .side-drawer-layout {
         display:flex;
         flex-direction: row-reverse;

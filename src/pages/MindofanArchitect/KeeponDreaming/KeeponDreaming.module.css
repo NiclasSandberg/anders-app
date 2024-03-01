@@ -1,0 +1,29 @@
+.text{
+    margin-left:20%;
+    margin-right:20%;
+    margin-top:20vh;
+}
+
+@media (min-width: 768px){
+    .text{
+        margin-top:25vh;
+    }
+
+}
+
+@media (min-width: 1024px){
+    .text{
+        margin-left:30%;
+        margin-right:30%;
+        margin-top:30vh;
+    }
+}
+
+
+@media (min-width: 2560px){
+    .text{
+        margin-left:32%;
+        margin-right:32%;
+        margin-top:32vh;
+    }
+}

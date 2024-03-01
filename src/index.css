@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  image-rendering:-webkit-optimize-contrast;
 }
 
 code {
@@ -16,3 +17,4 @@ code {
   font-family: 'futuran';
   src: local('futuran'), url(./fonts/futuran.TTF) format('truetype');
 }
+
